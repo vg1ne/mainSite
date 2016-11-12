@@ -1,0 +1,23 @@
+.vertical-centered{
+  height: 10em;
+  overflow: hidden;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.service-container{
+  background: gray;
+  position: relative;
+}
+
+.service-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

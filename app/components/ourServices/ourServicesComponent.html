@@ -1,0 +1,9 @@
+<h1>Our services</h1>
+<p>Clients work with us for our user-first digital solutions with
+    a wealth of experience across multiple industries
+</p>
+<section class="row">
+    <div *ngFor="let item of services" class="col-sm-4 col-xs-12">
+        <service [sitem]="item"></service>
+    </div>
+</section>

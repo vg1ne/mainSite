@@ -1,4 +1,4 @@
-.service-item-wrapper{
+.work-item-wrapper{
     margin-bottom: 1em;
 }
 
@@ -14,14 +14,14 @@
     width: 100%;
  }
 
-.service-container {
+.work-container {
     background: gray;
     position: relative;
     overflow: hidden;
     background-size:cover;
 }
 
-.service-container .vertical-centered {
+.work-container .vertical-centered {
     position: relative;
     z-index: 1;
     color: white;

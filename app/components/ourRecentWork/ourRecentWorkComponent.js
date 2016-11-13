@@ -9,47 +9,47 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var OurServicesComponent = (function () {
-    function OurServicesComponent() {
-        this.services = [
+var OurRecentWorkComponent = (function () {
+    function OurRecentWorkComponent() {
+        this.recentWork = [
             {
                 id: 1,
-                title: 'Brand Identity',
+                title: 'Radio Alarm iOS App',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             },
             {
                 id: 2,
-                title: 'UI/UX design',
+                title: 'Portland UI Kit Free Sample',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             },
             { id: 3,
-                title: 'Web development',
+                title: 'Carwash iOS App',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             },
             {
                 id: 4,
-                title: 'Mobile development',
+                title: 'Nexus 5 Mockups',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             },
             {
                 id: 5,
-                title: 'Content creation',
+                title: 'The Rapture Startup',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             },
             {
                 id: 6,
-                title: 'Workflow',
+                title: 'Portland UI Kit',
                 imgUrl: '../../../../styles/images/serviceStub.png'
             }];
     }
-    OurServicesComponent = __decorate([
+    OurRecentWorkComponent = __decorate([
         core_1.Component({
-            selector: 'our-services',
-            templateUrl: 'app/components/ourServices/ourServicesComponent.html'
+            selector: 'our-recent-work',
+            templateUrl: 'app/components/ourRecentWork/ourRecentWorkComponent.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], OurServicesComponent);
-    return OurServicesComponent;
+    ], OurRecentWorkComponent);
+    return OurRecentWorkComponent;
 }());
-exports.OurServicesComponent = OurServicesComponent;
-//# sourceMappingURL=ourServicesComponent.js.map
+exports.OurRecentWorkComponent = OurRecentWorkComponent;
+//# sourceMappingURL=ourRecentWorkComponent.js.map

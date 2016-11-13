@@ -10,18 +10,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+// import {ROUTER_DIRECTIVES}   from '@angular/router';
 var app_component_1 = require('./app.component');
 var headerComponent_1 = require('./components/shared/headerComponent/headerComponent');
 var ourServicesComponent_1 = require("./components/ourServices/ourServicesComponent");
 var serviceComponent_1 = require("./components/shared/serviceComponent/serviceComponent");
+var whyWeComponent_1 = require("./components/whyWe/whyWeComponent");
+var profitComponent_1 = require("./components/shared/profitComponent/profitComponent");
+var ourRecentWorkComponent_1 = require("./components/ourRecentWork/ourRecentWorkComponent");
+var workComponent_1 = require("./components/shared/workComponent/workComponent");
+var routing_1 = require("./routing");
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, serviceComponent_1.ServiceComponent],
-            bootstrap: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent]
+            imports: [platform_browser_1.BrowserModule, routing_1.routing],
+            declarations: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, serviceComponent_1.ServiceComponent, whyWeComponent_1.WhyWeComponent, profitComponent_1.ProfitComponent, ourRecentWorkComponent_1.OurRecentWorkComponent, workComponent_1.WorkComponent],
+            bootstrap: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, whyWeComponent_1.WhyWeComponent, ourRecentWorkComponent_1.OurRecentWorkComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

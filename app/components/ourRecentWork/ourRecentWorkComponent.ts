@@ -1,39 +1,39 @@
 import {Component} from '@angular/core';
-import {ServiceItem} from '../shared/serviceComponent/serviceItemModel'
+
 
 @Component({
-    selector: 'our-services',
-    templateUrl: 'app/components/ourServices/ourServicesComponent.html'
+    selector: 'our-recent-work',
+    templateUrl: 'app/components/ourRecentWork/ourRecentWorkComponent.html'
 })
-export class OurServicesComponent {
-    services = [
+export class OurRecentWorkComponent {
+    recentWork = [
         {
             id: 1,
-            title: 'Brand Identity',
+            title: 'Radio Alarm iOS App',
             imgUrl: '../../../../styles/images/serviceStub.png'
         },
         {
             id: 2,
-            title: 'UI/UX design',
+            title: 'Portland UI Kit Free Sample',
             imgUrl: '../../../../styles/images/serviceStub.png'
         },
         {   id: 3,
-            title: 'Web development',
+            title: 'Carwash iOS App',
             imgUrl: '../../../../styles/images/serviceStub.png'
         },
         {
             id: 4,
-            title: 'Mobile development',
+            title: 'Nexus 5 Mockups',
             imgUrl: '../../../../styles/images/serviceStub.png'
         },
         {
             id: 5,
-            title: 'Content creation',
+            title: 'The Rapture Startup',
             imgUrl: '../../../../styles/images/serviceStub.png'
         },
         {
             id: 6,
-            title: 'Workflow',
+            title: 'Portland UI Kit',
             imgUrl: '../../../../styles/images/serviceStub.png'
         }]
 

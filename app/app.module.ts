@@ -14,11 +14,12 @@ import {WorkComponent} from "./components/shared/workComponent/workComponent"
 import {HomeComponent} from "./components/home/homeComponent"
 import {ContactUsComponent} from "./components/contactUs/contactUs"
 import {FooterComponent} from "./components/shared/footerComponent/footerComponent"
+import {OurServiceComponent} from "./components/ourService/ourServiceComponent"
 import {routing} from "./routing"
 
 @NgModule({
   imports:      [ BrowserModule, routing ],
-  declarations: [ AppComponent, HeaderComponent, OurServicesComponent, ServiceComponent, WhyWeComponent, ProfitComponent, OurRecentWorkComponent, WorkComponent, HomeComponent, ContactUsComponent, FooterComponent ],
+  declarations: [ AppComponent, HeaderComponent, OurServicesComponent, ServiceComponent, WhyWeComponent, ProfitComponent, OurRecentWorkComponent, WorkComponent, HomeComponent, ContactUsComponent, FooterComponent, OurServiceComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

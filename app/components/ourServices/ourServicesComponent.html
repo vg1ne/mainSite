@@ -3,7 +3,7 @@
     a wealth of experience across multiple industries
 </p>
 <section class="row">
-    <div *ngFor="let item of services" class="col-sm-4 col-xs-12">
+    <a [routerLink]="['/ourService', item.id]" *ngFor="let item of services" class="col-sm-4 col-xs-12">
         <service [sitem]="item"></service>
-    </div>
+    </a>
 </section>

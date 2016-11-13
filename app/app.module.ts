@@ -11,13 +11,15 @@ import {WhyWeComponent} from "./components/whyWe/whyWeComponent"
 import {ProfitComponent} from "./components/shared/profitComponent/profitComponent"
 import {OurRecentWorkComponent} from "./components/ourRecentWork/ourRecentWorkComponent"
 import {WorkComponent} from "./components/shared/workComponent/workComponent"
+import {HomeComponent} from "./components/home/homeComponent"
+import {ContactUsComponent} from "./components/contactUs/contactUs"
+import {FooterComponent} from "./components/shared/footerComponent/footerComponent"
 import {routing} from "./routing"
-
 
 @NgModule({
   imports:      [ BrowserModule, routing ],
-  declarations: [ AppComponent, HeaderComponent, OurServicesComponent, ServiceComponent, WhyWeComponent, ProfitComponent, OurRecentWorkComponent, WorkComponent ],
-  bootstrap:    [ AppComponent, HeaderComponent, OurServicesComponent, WhyWeComponent, OurRecentWorkComponent ]
+  declarations: [ AppComponent, HeaderComponent, OurServicesComponent, ServiceComponent, WhyWeComponent, ProfitComponent, OurRecentWorkComponent, WorkComponent, HomeComponent, ContactUsComponent, FooterComponent ],
+  bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
 

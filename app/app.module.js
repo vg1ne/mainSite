@@ -19,6 +19,9 @@ var whyWeComponent_1 = require("./components/whyWe/whyWeComponent");
 var profitComponent_1 = require("./components/shared/profitComponent/profitComponent");
 var ourRecentWorkComponent_1 = require("./components/ourRecentWork/ourRecentWorkComponent");
 var workComponent_1 = require("./components/shared/workComponent/workComponent");
+var homeComponent_1 = require("./components/home/homeComponent");
+var contactUs_1 = require("./components/contactUs/contactUs");
+var footerComponent_1 = require("./components/shared/footerComponent/footerComponent");
 var routing_1 = require("./routing");
 var AppModule = (function () {
     function AppModule() {
@@ -26,8 +29,8 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, routing_1.routing],
-            declarations: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, serviceComponent_1.ServiceComponent, whyWeComponent_1.WhyWeComponent, profitComponent_1.ProfitComponent, ourRecentWorkComponent_1.OurRecentWorkComponent, workComponent_1.WorkComponent],
-            bootstrap: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, whyWeComponent_1.WhyWeComponent, ourRecentWorkComponent_1.OurRecentWorkComponent]
+            declarations: [app_component_1.AppComponent, headerComponent_1.HeaderComponent, ourServicesComponent_1.OurServicesComponent, serviceComponent_1.ServiceComponent, whyWeComponent_1.WhyWeComponent, profitComponent_1.ProfitComponent, ourRecentWorkComponent_1.OurRecentWorkComponent, workComponent_1.WorkComponent, homeComponent_1.HomeComponent, contactUs_1.ContactUsComponent, footerComponent_1.FooterComponent],
+            bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

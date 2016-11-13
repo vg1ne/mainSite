@@ -36,3 +36,5 @@
 /app/routing.js
 /app/routing.js.map
 /npm-debug.log
+/app/components/homeSlider/homeSlider.js
+/app/components/homeSlider/homeSlider.js.map

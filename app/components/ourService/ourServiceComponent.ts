@@ -19,6 +19,6 @@ export class OurServiceComponent {
     ngOnDestroy() {
         this.sub.unsubscribe();
     }
-    
+
 }
 

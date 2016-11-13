@@ -1,10 +1,7 @@
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-// import {ROUTER_DIRECTIVES}   from '@angular/router';
-
-import { AppComponent }   from './app.component';
-import { HeaderComponent }   from './components/shared/headerComponent/headerComponent';
+import {NgModule}      from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppComponent}   from './app.component';
+import {HeaderComponent}   from './components/shared/headerComponent/headerComponent';
 import {OurServicesComponent} from "./components/ourServices/ourServicesComponent";
 import {ServiceComponent} from "./components/shared/serviceComponent/serviceComponent"
 import {WhyWeComponent} from "./components/whyWe/whyWeComponent"
@@ -15,12 +12,18 @@ import {HomeComponent} from "./components/home/homeComponent"
 import {ContactUsComponent} from "./components/contactUs/contactUs"
 import {FooterComponent} from "./components/shared/footerComponent/footerComponent"
 import {OurServiceComponent} from "./components/ourService/ourServiceComponent"
+import {HomeSlider} from "./components/homeSlider/homeSlider"
 import {routing} from "./routing"
 
 @NgModule({
-  imports:      [ BrowserModule, routing ],
-  declarations: [ AppComponent, HeaderComponent, OurServicesComponent, ServiceComponent, WhyWeComponent, ProfitComponent, OurRecentWorkComponent, WorkComponent, HomeComponent, ContactUsComponent, FooterComponent, OurServiceComponent ],
-  bootstrap:    [ AppComponent ]
+    imports: [BrowserModule, routing],
+    declarations: [AppComponent, HeaderComponent, OurServicesComponent,
+        ServiceComponent, WhyWeComponent, ProfitComponent,
+        OurRecentWorkComponent, WorkComponent, HomeComponent,
+        ContactUsComponent, FooterComponent, OurServiceComponent,
+        HomeSlider],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
 

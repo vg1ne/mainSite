@@ -1,19 +1,17 @@
-import {Routes, RouterModule} from '@angular/router'
-import {AppComponent} from './app.component'
-import {OurRecentWorkComponent} from "./components/ourRecentWork/ourRecentWorkComponent"
-import {HomeComponent} from "./components/home/homeComponent"
-import {OurServicesComponent} from "./components/ourServices/ourServicesComponent"
-import {ContactUsComponent} from "./components/contactUs/contactUs"
-import {OurServiceComponent} from "./components/ourService/ourServiceComponent"
+import { Routes, RouterModule } from '@angular/router'
+import { AppComponent } from './app.component'
+import { PortfolioView } from "./views/portfolio/PortfolioView"
+import { HomeView } from "./views/home/homeView"
+import { OurServicesView } from "./views/ourServices/ourServicesView"
+import { ContactUsView } from "./views/contactUs/contactUsView"
+import { OurServiceView } from "./views/ourService/ourServiceView"
 
 export const routes: Routes = [
-    {path: '', component: HomeComponent},
-    {path: 'portfolio', component: OurRecentWorkComponent},
-    {path: 'ourServices', component: OurServicesComponent},
-    {path: 'contactUs', component: ContactUsComponent},
-    {path: 'ourService/:id', component: OurServiceComponent}
+    { path: '', component: HomeView },
+    { path: 'portfolio', component: PortfolioView },
+    { path: 'ourServices', component: OurServicesView },
+    { path: 'contactUs', component: ContactUsView },
+    { path: 'ourService/:id', component: OurServiceView }
 ];
 export const routing = RouterModule.forRoot(routes);
-/**
- * Created by админ on 13-Nov-16.
- */
+

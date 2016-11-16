@@ -1,0 +1,20 @@
+.carousel .slider-img{
+    position: absolute;
+}
+.carousel .slide{
+    position: relative;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 12em;
+}
+
+.carousel .item{
+    color: white;
+}
+
+.slide-mark{
+    display: inline-block;
+    background: blue;
+    padding: 0.5em 2em;
+}

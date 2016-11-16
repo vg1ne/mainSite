@@ -1,6 +1,7 @@
 import {NgModule}      from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {AppComponent}   from './app.component';
+import { AppComponent } from './app.component';
+import { routing } from "./routing"
 import {HeaderComponent}   from './components/shared/headerComponent/headerComponent';
 import {OurServicesComponent} from "./components/ourServices/ourServicesComponent";
 import {ServiceComponent} from "./components/shared/serviceComponent/serviceComponent"
@@ -8,19 +9,29 @@ import {WhyWeComponent} from "./components/whyWe/whyWeComponent"
 import {ProfitComponent} from "./components/shared/profitComponent/profitComponent"
 import {OurRecentWorkComponent} from "./components/ourRecentWork/ourRecentWorkComponent"
 import {WorkComponent} from "./components/shared/workComponent/workComponent"
-import {HomeComponent} from "./components/home/homeComponent"
 import {ContactUsComponent} from "./components/contactUs/contactUs"
 import {FooterComponent} from "./components/shared/footerComponent/footerComponent"
 import {OurServiceComponent} from "./components/ourService/ourServiceComponent"
-import {HomeSlider} from "./components/homeSlider/homeSlider"
-import {routing} from "./routing"
+import { HomeSlider } from "./components/homeSlider/homeSlider"
+import { SlideComponent } from "./components/shared/slideComponent/slideComponent"
+
+import { HomeView } from "./views/home/homeView"
+import { PortfolioView } from "./views/portfolio/PortfolioView"
+import { OurServicesView } from "./views/ourServices/ourServicesView"
+import { ContactUsView } from "./views/contactUs/contactUsView"
+import { OurServiceView } from "./views/ourService/ourServiceView"
 
 @NgModule({
     imports: [BrowserModule, routing],
-    declarations: [AppComponent, HeaderComponent, OurServicesComponent,
+    declarations: [AppComponent,
+
+        HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView,
+
+        HeaderComponent, OurServicesComponent,
         ServiceComponent, WhyWeComponent, ProfitComponent,
-        OurRecentWorkComponent, WorkComponent, HomeComponent,
+        OurRecentWorkComponent, WorkComponent,
         ContactUsComponent, FooterComponent, OurServiceComponent,
+        SlideComponent,
         HomeSlider],
     bootstrap: [AppComponent]
 })

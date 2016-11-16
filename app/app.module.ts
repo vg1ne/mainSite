@@ -14,6 +14,8 @@ import { FooterComponent } from "./components/shared/footerComponent/footerCompo
 import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent"
 import { HomeSlider } from "./components/homeSlider/homeSlider"
 import { SlideComponent } from "./components/shared/slideComponent/slideComponent"
+import { PreloaderComponent } from "./components/shared/preloaderComponent/preloaderComponent"
+
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
@@ -39,11 +41,16 @@ import { OurServicesService } from "./services/ourServices.service";
         ServiceComponent, WhyWeComponent, ProfitComponent,
         OurRecentWorkComponent, WorkComponent,
         ContactUsComponent,
-        SlideComponent,
+        SlideComponent,PreloaderComponent,
         HomeSlider],
 
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
-export class AppModule {}
+export class AppModule {
+    loading: boolean = true
+    ngAfterViewInit(){
+        this.loading = false
+    }
+}
 

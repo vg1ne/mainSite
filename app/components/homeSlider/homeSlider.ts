@@ -14,4 +14,8 @@ export class HomeSlider {
     ngOnInit() {
         this.slides = this.slidesService.getHomeSlides()
     }
+
+    get isLoading(){
+        return !this.slides.length
+    }
 }

@@ -24,6 +24,7 @@ import { PortfolioView } from "./views/portfolio/PortfolioView"
 import { OurServicesView } from "./views/ourServices/ourServicesView"
 import { ContactUsView } from "./views/contactUs/contactUsView"
 import { OurServiceView } from "./views/ourService/ourServiceView"
+import { OurWorkView} from "./views/ourWork/ourWorkView"
 
 import { SlidesService } from "./services/slides.service";
 import { OurRecentWorksService } from "./services/ourRecentWorks.service";
@@ -33,7 +34,7 @@ import { OurServicesService } from "./services/ourServices.service";
     imports: [BrowserModule, routing],
     declarations: [AppComponent,
 
-        HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView,
+        HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,
 
         HeaderComponent, SubFooterComponent, FooterComponent,
 

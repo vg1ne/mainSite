@@ -1,9 +1,11 @@
 <h1>Our Recent Work</h1>
 <p>Plastic design & develop digital experiences that put people first.
 </p>
-<section class="row">
+<section class="row" *ngIf="recentWork">
     <div *ngFor="let item of recentWork" class="col-sm-4 col-xs-12">
-        <work [witem]="item"></work>
+        <a routerLink="/ourWork/{{item.id}}">
+            <work [witem]="item"></work>
+        </a>
     </div>
 </section>
 <p class="text-center">

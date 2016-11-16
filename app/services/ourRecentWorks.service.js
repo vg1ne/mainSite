@@ -16,6 +16,9 @@ var OurRecentWorksService = (function () {
     OurRecentWorksService.prototype.getOurRecentWorks = function () {
         return ourRecentWorksMock_1.ourRecentWorks;
     };
+    OurRecentWorksService.prototype.getById = function (id) {
+        return ourRecentWorksMock_1.ourRecentWorks[id - 1] ? ourRecentWorksMock_1.ourRecentWorks[id - 1] : null;
+    };
     OurRecentWorksService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])

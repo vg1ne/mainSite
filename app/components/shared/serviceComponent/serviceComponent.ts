@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import {ServiceItem} from '../serviceComponent/serviceItemModel'
+import { ServiceItem } from '../../../models/serviceItemModel';
 
 @Component({
     selector: 'service',

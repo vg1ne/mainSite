@@ -9,14 +9,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
+var ourServices_service_1 = require('../../services/ourServices.service');
 var OurServiceView = (function () {
-    function OurServiceView() {
+    function OurServiceView(route, ourServicesService) {
+        this.route = route;
+        this.ourServicesService = ourServicesService;
     }
+    OurServiceView.prototype.ngOnInit = function () {
+        var _this = this;
+        this.sub = this.route.params.subscribe(function (params) {
+            _this.id = +params['id'];
+        });
+        this.service = this.ourServicesService.getById(this.id);
+    };
+    OurServiceView.prototype.ngOnDestroy = function () {
+        this.sub.unsubscribe();
+    };
     OurServiceView = __decorate([
         core_1.Component({
             templateUrl: 'app/views/ourService/ourServiceView.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.ActivatedRoute, ourServices_service_1.OurServicesService])
     ], OurServiceView);
     return OurServiceView;
 }());

@@ -16,6 +16,9 @@ var OurServicesService = (function () {
     OurServicesService.prototype.get = function () {
         return servicesMock_1.services;
     };
+    OurServicesService.prototype.getById = function (id) {
+        return servicesMock_1.services[id - 1] ? servicesMock_1.services[id - 1] : null;
+    };
     OurServicesService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])

@@ -12,7 +12,6 @@ import { WorkComponent } from "./components/shared/workComponent/workComponent"
 import { ContactUsComponent } from "./components/contactUs/contactUs"
 import { FooterComponent } from "./components/shared/footerComponent/footerComponent"
 import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent"
-import { OurServiceComponent } from "./components/ourService/ourServiceComponent"
 import { HomeSlider } from "./components/homeSlider/homeSlider"
 import { SlideComponent } from "./components/shared/slideComponent/slideComponent"
 
@@ -37,13 +36,12 @@ import { OurServicesService } from "./services/ourServices.service";
         OurServicesComponent,
         ServiceComponent, WhyWeComponent, ProfitComponent,
         OurRecentWorkComponent, WorkComponent,
-        ContactUsComponent, OurServiceComponent,
+        ContactUsComponent,
         SlideComponent,
         HomeSlider],
 
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService]
 })
-export class AppModule {
-}
+export class AppModule {}
 

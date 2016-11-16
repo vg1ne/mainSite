@@ -16,3 +16,8 @@ body {
 .bordered{
   border-radius: 3px;
 }
+
+.subheader.imaged{
+    height: 25em;
+    background-size: cover;
+}

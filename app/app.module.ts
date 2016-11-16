@@ -15,6 +15,8 @@ import { SubFooterComponent } from "./components/shared/subFooterComponent/subFo
 import { HomeSlider } from "./components/homeSlider/homeSlider"
 import { SlideComponent } from "./components/shared/slideComponent/slideComponent"
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import { HomeView } from "./views/home/homeView"
 import { PortfolioView } from "./views/portfolio/PortfolioView"
 import { OurServicesView } from "./views/ourServices/ourServicesView"
@@ -41,7 +43,7 @@ import { OurServicesService } from "./services/ourServices.service";
         HomeSlider],
 
     bootstrap: [AppComponent],
-    providers: [SlidesService, OurRecentWorksService, OurServicesService]
+    providers: [SlidesService, OurRecentWorksService, OurServicesService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class AppModule {}
 

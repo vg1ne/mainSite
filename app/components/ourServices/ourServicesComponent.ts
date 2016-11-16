@@ -1,5 +1,5 @@
 import {Component, Injectable} from '@angular/core';
-import { ServiceItem } from '../shared/serviceComponent/serviceItemModel';
+import { ServiceItem } from '../../models/serviceItemModel';
 import { OurServicesService } from '../../services/ourServices.service';
 
 @Component({

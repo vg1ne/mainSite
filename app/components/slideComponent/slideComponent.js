@@ -9,16 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeView = (function () {
-    function HomeView() {
+var SlideComponent = (function () {
+    function SlideComponent() {
     }
-    HomeView = __decorate([
+    __decorate([
+        core_1.Input('slide'), 
+        __metadata('design:type', Object)
+    ], SlideComponent.prototype, "item", void 0);
+    SlideComponent = __decorate([
         core_1.Component({
-            templateUrl: 'app/views/home/homeView.html'
+            selector: 'slide',
+            templateUrl: 'app/components/slideComponent/slideComponent.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeView);
-    return HomeView;
+    ], SlideComponent);
+    return SlideComponent;
 }());
-exports.HomeView = HomeView;
-//# sourceMappingURL=homeView.js.map
+exports.SlideComponent = SlideComponent;
+//# sourceMappingURL=slideComponent.js.map

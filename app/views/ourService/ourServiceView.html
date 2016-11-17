@@ -1,9 +1,4 @@
-<h1>Our service {{service.title}}</h1>
-<div class="subheader imaged" [ngStyle]="{'background-image': 'url(' + service.imgUrl + ')'}"></div>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque commodi explicabo minima nisi rem.
-</p>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, quod!
-</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi debitis delectus error ex iusto non obcaecati quia quis suscipit ullam!</p>
+<div class="subheader imaged" [ngStyle]="{'background-image': 'url(' + service.imgUrl + ')'}">
+    <h1 class="text-center">Our service {{service.title}}</h1>
+    <h2 class="text-center" [innerHtml]="service.desc"></h2>
+</div>

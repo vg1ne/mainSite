@@ -9,21 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var SlideComponent = (function () {
-    function SlideComponent() {
+var whyWeMock_1 = require('../mocks/whyWeMock');
+var WhyWeService = (function () {
+    function WhyWeService() {
     }
-    __decorate([
-        core_1.Input('slide'), 
-        __metadata('design:type', Object)
-    ], SlideComponent.prototype, "item", void 0);
-    SlideComponent = __decorate([
-        core_1.Component({
-            selector: 'slide',
-            templateUrl: 'app/components/shared/slideComponent/slideComponent.html'
-        }), 
+    WhyWeService.prototype.get = function () {
+        return whyWeMock_1.profit;
+    };
+    WhyWeService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], SlideComponent);
-    return SlideComponent;
+    ], WhyWeService);
+    return WhyWeService;
 }());
-exports.SlideComponent = SlideComponent;
-//# sourceMappingURL=slideComponent.js.map
+exports.WhyWeService = WhyWeService;
+//# sourceMappingURL=whyWe.service.js.map

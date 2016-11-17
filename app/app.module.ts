@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { routing } from "./routing"
+import { routing } from "./routing";
 import { HeaderComponent } from './components/shared/headerComponent/headerComponent';
 import { OurServicesComponent } from "./components/ourServices/ourServicesComponent";
-import { ServiceComponent } from "./components/shared/serviceComponent/serviceComponent"
-import { WhyWeComponent } from "./components/whyWe/whyWeComponent"
-import { ProfitComponent } from "./components/shared/profitComponent/profitComponent"
-import { OurRecentWorkComponent } from "./components/ourRecentWork/ourRecentWorkComponent"
-import { WorkComponent } from "./components/shared/workComponent/workComponent"
-import { ContactUsComponent } from "./components/contactUs/contactUs"
-import { FooterComponent } from "./components/shared/footerComponent/footerComponent"
-import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent"
-import { HomeSlider } from "./components/homeSlider/homeSlider"
-import { SlideComponent } from "./components/shared/slideComponent/slideComponent"
-import { PreloaderComponent } from "./components/shared/preloaderComponent/preloaderComponent"
+import { ServiceComponent } from "./components/serviceComponent/serviceComponent";
+import { WhyWeComponent } from "./components/whyWe/whyWeComponent";
+import { ProfitComponent } from "./components/profitComponent/profitComponent";
+import { OurRecentWorkComponent } from "./components/ourRecentWork/ourRecentWorkComponent";
+import { WorkComponent } from "./components/workComponent/workComponent";
+import { ContactUsComponent } from "./components/contactUs/contactUs";
+import { FooterComponent } from "./components/shared/footerComponent/footerComponent";
+import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent";
+import { HomeSlider } from "./components/homeSlider/homeSlider";
+import { SlideComponent } from "./components/slideComponent/slideComponent";
+import { PreloaderComponent } from "./components/shared/preloaderComponent/preloaderComponent";
 
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
@@ -29,6 +29,8 @@ import { OurWorkView} from "./views/ourWork/ourWorkView"
 import { SlidesService } from "./services/slides.service";
 import { OurRecentWorksService } from "./services/ourRecentWorks.service";
 import { OurServicesService } from "./services/ourServices.service";
+import { WhyWeService } from "./services/whyWe.service";
+
 
 @NgModule({
     imports: [BrowserModule, routing],
@@ -46,7 +48,7 @@ import { OurServicesService } from "./services/ourServices.service";
         HomeSlider],
 
     bootstrap: [AppComponent],
-    providers: [SlidesService, OurRecentWorksService, OurServicesService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
+    providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class AppModule {
     loading: boolean = true

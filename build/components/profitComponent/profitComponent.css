@@ -1,0 +1,17 @@
+.profit-img{
+    display: block;
+    width: 5em;
+    height:5em;
+    margin: 0 auto 3em auto;
+    background-size: contain;
+}
+
+.profit-wrapper h3{
+    color: black;
+    text-align: center;
+}
+
+.profit-wrapper p{
+    color: gray;
+    text-align: center;
+}

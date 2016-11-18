@@ -51,9 +51,6 @@ import { WhyWeService } from "./services/whyWe.service";
     providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class AppModule {
-    loading: boolean = true
-    ngAfterViewInit(){
-        this.loading = false
-    }
+
 }
 

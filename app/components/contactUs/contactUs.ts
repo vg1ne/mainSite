@@ -3,4 +3,6 @@ import { Component } from '@angular/core';
   selector: 'contact-us',
   templateUrl: 'app/components/contactUs/contactUs.html'
 })
-export class ContactUsComponent { }
+export class ContactUsComponent {
+    constructor() { }
+}

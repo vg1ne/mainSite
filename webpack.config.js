@@ -10,7 +10,7 @@ module.exports = {
         filename: "./dist/[name].bundle.js"
     },
     resolve: {
-        extensions: ['', '.js', '.ts']
+        extensions: ['', '.js', '.ts', '.css']
     },
     devtool: 'source-map',
     module: {
@@ -22,7 +22,8 @@ module.exports = {
           }
         ]
     },
+    watch: true,
     plugins: [
-      new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"./dist/vendor.bundle.js")
+      new webpack.optimize.CommonsChunkPlugin("vendor", "./dist/vendor.bundle.js")
     ]
 }

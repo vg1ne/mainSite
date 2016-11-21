@@ -1,10 +1,6 @@
-# Angular2 starter kit with Typescript and Webpack
-
 ### Setup
 
 - npm install  
-- npm start  
-- start browser with http://localhost:8080  
-- webpack (to get app bundle and vendor bundle files)
-
-Checkout this [article](http://www.schempy.com/2016/01/19/angular2_webpack_typescript/) for full documentation based on angular 2.0.0 final
+- gulp default  - runs development version (bundles are in memory)
+- browser url for usage http://localhost:8080  
+- gulp webpack - to bundle app script for production

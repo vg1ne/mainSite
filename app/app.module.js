@@ -38,11 +38,7 @@ var ourServices_service_1 = require("./services/ourServices.service");
 var whyWe_service_1 = require("./services/whyWe.service");
 var AppModule = (function () {
     function AppModule() {
-        this.loading = true;
     }
-    AppModule.prototype.ngAfterViewInit = function () {
-        this.loading = false;
-    };
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, routing_1.routing],

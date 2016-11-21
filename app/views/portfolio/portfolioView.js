@@ -21,4 +21,4 @@ var PortfolioView = (function () {
     return PortfolioView;
 }());
 exports.PortfolioView = PortfolioView;
-//# sourceMappingURL=PortfolioView.js.map
+//# sourceMappingURL=portfolioView.js.map

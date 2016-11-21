@@ -1,0 +1,26 @@
+.service-item-wrapper {
+  margin-bottom: 1em;
+}
+.vertical-centered {
+  height: 15em;
+  overflow: hidden;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 100%;
+}
+.service-container {
+  background: gray;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+.service-container .vertical-centered {
+  position: relative;
+  z-index: 1;
+  color: white;
+  line-height: 15em;
+  text-align: center;
+}

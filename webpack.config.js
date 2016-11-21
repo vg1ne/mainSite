@@ -7,7 +7,7 @@ module.exports = {
     },
     output: {
         path: __dirname,
-        filename: "./dist/[name].bundle.js"
+        filename: "./prod/[name].bundle.js"
     },
     resolve: {
         extensions: ['', '.js', '.ts', '.css']
@@ -24,6 +24,6 @@ module.exports = {
     },
     watch: true,
     plugins: [
-      new webpack.optimize.CommonsChunkPlugin("vendor", "./dist/vendor.bundle.js")
+      new webpack.optimize.CommonsChunkPlugin("vendor", "./prod/vendor.bundle.js")
     ]
 }

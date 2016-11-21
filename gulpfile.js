@@ -9,24 +9,26 @@ const webpackConfig = require("./webpack.config.js");
 const gutil = require('gutil');
 var cleanCss = require('gulp-clean-css')
 var stripCssComments = require('gulp-strip-css-comments');
+const less = require('gulp-less');
+const path = require('path');
 
 gulp.task('clean', function () {
     return del('dist/**/*');
 });
 
-gulp.task('styles', function () {
-    gulp.src(['app/**/*.css', 'styles/style.css', 'styles/bootstrap.css'])
+gulp.task('styles', ['less'], function () {
+    gulp.src(['app/**/*.css', 'styles/style.css', 'styles/bootstrap.css', 'dist/css/**/*.css'])
       .pipe(flatten())
       .pipe(concat('style.css'))
       .pipe(stripCssComments())
       .pipe(cleanCss())
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest('prod'));
 });
 
 gulp.task('vendors', function () {
     return gulp.src(['app/scripts/jquery.js', 'app/scripts/bootstrap.js'])
 		.pipe(concat('vendors.bundle.js'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('prod'));
 });
 
 gulp.task("webpack", function (callback) {
@@ -52,6 +54,14 @@ gulp.task("webpack-dev-server", function (callback) {
     });
 });
 
-gulp.task('default', ['clean', 'styles', 'vendors'], function () {
+gulp.task('less', function () {
+    return gulp.src('app/**/*.less')
+      .pipe(less({
+          paths: [path.join(__dirname, 'less', 'includes')]
+      }))
+      .pipe(gulp.dest('./dist/css'));
+});
+
+gulp.task('default', ['styles', 'vendors'], function () {
     gulp.start('webpack-dev-server')
 });

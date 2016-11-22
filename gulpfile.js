@@ -3,18 +3,32 @@ const del = require('del');
 const tscConfig = require('./tsconfig.json');
 const concat = require('gulp-concat');
 const flatten = require('gulp-flatten')
-var webpack = require("webpack");
-var WebpackDevServer = require("webpack-dev-server");
+const webpack = require("webpack");
+const WebpackDevServer = require("webpack-dev-server");
 const webpackConfig = require("./webpack.config.js");
 const gutil = require('gutil');
-var cleanCss = require('gulp-clean-css')
-var stripCssComments = require('gulp-strip-css-comments');
+const cleanCss = require('gulp-clean-css')
+const stripCssComments = require('gulp-strip-css-comments');
 const less = require('gulp-less');
 const path = require('path');
 
 gulp.task('clean', function () {
     return del('dist/**/*');
 });
+
+gulp.task('cleanMapFiles', function () {
+    return del('app/**/*.map.js').then(paths => {
+        console.log('Deleted files and folders:\n', paths.join('\n'));
+    });
+});
+
+gulp.task('cleanJsFiles', function () {
+    return del(['app/**/*.js', '!app/scripts/**/*.js']).then(paths => {
+        console.log('Deleted files and folders:\n', paths.join('\n'));
+    });
+});
+
+gulp.task('cleanCompiling', ['cleanMapFiles', 'cleanJsFiles'], function () { });
 
 gulp.task('styles', ['less'], function () {
     gulp.src(['app/**/*.css', 'styles/style.css', 'styles/bootstrap.css', 'dist/css/**/*.css'])
@@ -34,23 +48,20 @@ gulp.task('vendors', function () {
 gulp.task("webpack", function (callback) {
     webpack(webpackConfig, function (err, stats) {
         if (err) throw new gutil.PluginError("webpack", err);
-        gutil.log("[webpack]", stats.toString({
-            // output options
-        }));
+        gutil.log("[webpack]", stats.toString({}));
         callback();
     });
 });
 
-gulp.task("webpack-dev-server", function (callback) {
-    var compiler = webpack(webpackConfig);
+gulp.task("webpack:webpack-dev-server", function (callback) {
+    const compiler = webpack(webpackConfig);
 
-    new WebpackDevServer(compiler, {
-    }).listen(8080, "localhost", function (err) {
+    new WebpackDevServer(compiler, {}).listen(8080, "localhost", function (err) {
         if (err) throw new gutil.PluginError("webpack-dev-server", err);
         gutil.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
 
         // keep the server alive or continue?
-        // callback();
+        callback();
     });
 });
 
@@ -63,5 +74,5 @@ gulp.task('less', function () {
 });
 
 gulp.task('default', ['styles', 'vendors'], function () {
-    gulp.start('webpack-dev-server')
+    gulp.start('webpack:webpack-dev-server')
 });

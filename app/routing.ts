@@ -1,19 +1,12 @@
 import { Routes, RouterModule } from '@angular/router'
-import { AppComponent } from './app.component'
-import { PortfolioView } from "./views/portfolio/PortfolioView"
+import { AppComponent } from './components/app.component'
 import { HomeView } from "./views/home/homeView"
 import { OurServicesView } from "./views/ourServices/ourServicesView"
-import { ContactUsView } from "./views/contactUs/contactUsView"
 import { OurServiceView } from "./views/ourService/ourServiceView"
-import { OurWorkView } from "./views/ourWork/ourWorkView"
 
 export const routes: Routes = [
     { path: '', component: HomeView },
-    { path: 'portfolio', component: PortfolioView },
     { path: 'ourServices', component: OurServicesView },
-    { path: 'contactUs', component: ContactUsView },
-    { path: 'ourService/:id', component: OurServiceView },
-    { path: 'ourWork/:id', component: OurWorkView}
+    { path: 'ourService/:id', component: OurServiceView }
 ];
 export const routing = RouterModule.forRoot(routes);
-

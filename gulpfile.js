@@ -18,7 +18,7 @@ gulp.task('cleanMapFiles', function () {
     });
 });
 gulp.task('cleanJsFiles', function () {
-    return del(['app/**/*.js', '!app/scripts/**/*.js']).then(paths => {
+    return del(['app/**/*.js']).then(paths => {
         console.log('Deleted files and folders:\n', paths.join('\n'));
     });
 });

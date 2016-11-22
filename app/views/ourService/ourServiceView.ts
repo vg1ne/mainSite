@@ -8,6 +8,7 @@ import { ServiceItem } from '../../models/serviceItemModel';
 })
 
 export class OurServiceView {
+
     id: number
     private sub: any
     service: ServiceItem 
@@ -24,5 +25,6 @@ export class OurServiceView {
     ngOnDestroy() {
         this.sub.unsubscribe();
     }
+
 }
 

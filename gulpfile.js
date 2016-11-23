@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const del = require('del');
-const tscConfig = require('./tsconfig.json');
 const concat = require('gulp-concat');
 const flatten = require('gulp-flatten')
 const webpack = require("webpack");

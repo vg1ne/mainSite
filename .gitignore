@@ -12,3 +12,6 @@ app/**/*.js
 /prod/app.bundle.js.map
 /prod/main.bundle.js
 /prod/vendor.bundle.js.map
+/.idea/dictionaries/vgoreiko.xml
+/.idea/jsLibraryMappings.xml
+/.idea/misc.xml

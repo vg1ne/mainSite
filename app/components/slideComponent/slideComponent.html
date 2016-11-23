@@ -1,0 +1,13 @@
+<div class="slide" [ngStyle]="{'background-image': 'url(' + item.imgUrl + ')'}">
+    <section class="slide-info">
+        <span class="slide-mark">{{item.title}}</span>
+        <h2>
+            <span>{{item.heading}}</span>
+            <span>{{item.text}}</span>
+        </h2>
+        <p class="slide-description hidden-xs">{{item.desc}}</p>
+        <div class="show-more-section">
+            <a class="btn btn-info" routerLink="/ourService/{{item.id}}">Show More</a>
+        </div>
+    </section>
+</div>

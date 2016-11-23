@@ -1,11 +1,12 @@
 .main-footer {
-  background: black;
+  background: #27282c;
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 5em;
+  height: 2.5em;
   z-index: 1;
 }
 .main-footer .footer-text {
-  line-height: 5em;
+  line-height: 2.5em;
+  color: #eff3f5;
 }

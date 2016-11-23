@@ -1,5 +1,4 @@
 import { Routes, RouterModule } from '@angular/router'
-import { AppComponent } from './components/app.component'
 import { PortfolioView } from "./views/portfolio/PortfolioView"
 import { HomeView } from "./views/home/homeView"
 import { OurServicesView } from "./views/ourServices/ourServicesView"

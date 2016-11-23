@@ -11,6 +11,9 @@ const stripCssComments = require('gulp-strip-css-comments');
 const less = require('gulp-less');
 const path = require('path');
 
+const lessFiles = ['app/**/*.less', 'styles/style.less'];
+const cssFiles = ['app/**/*.css', 'styles/bootstrap.css', 'dist/css/**/*.css'];
+
 gulp.task('cleanMapFiles', function () {
     return del('app/**/*.map.js').then(paths => {
         console.log('Deleted files and folders:\n', paths.join('\n'));
@@ -24,7 +27,7 @@ gulp.task('cleanJsFiles', function () {
 gulp.task('cleanCompiling', ['cleanMapFiles', 'cleanJsFiles'], function () { });
 
 gulp.task('styles', ['less'], function () {
-    gulp.src(['app/**/*.css', 'styles/style.css', 'styles/bootstrap.css', 'dist/css/**/*.css'])
+    gulp.src(cssFiles)
       .pipe(flatten())
       .pipe(concat('style.css'))
       .pipe(stripCssComments())
@@ -32,7 +35,7 @@ gulp.task('styles', ['less'], function () {
       .pipe(gulp.dest('prod'));
 });
 gulp.task('less', function () {
-    return gulp.src('app/**/*.less')
+    return gulp.src(lessFiles)
       .pipe(less({
           paths: [path.join(__dirname, 'less', 'includes')]
       }))
@@ -64,8 +67,6 @@ gulp.task("webpack:webpack-dev-server", function (callback) {
     });
 });
 
-
-
 gulp.task('default', ['styles', 'vendors'], function () {
-    gulp.start('webpack:webpack-dev-server')
+    gulp.start('webpack:webpack-dev-server');
 });

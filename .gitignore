@@ -1,3 +1,13 @@
 node_modules/
 typings/
 
+/.idea/mainSite.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/npm-debug.log.2141047883
+/prod/app.bundle.js
+/prod/app.bundle.js.map
+/prod/main.bundle.js
+/prod/vendor.bundle.js
+/prod/vendor.bundle.js.map

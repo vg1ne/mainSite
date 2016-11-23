@@ -1,6 +1,8 @@
 node_modules/
 typings/
-
+dist/
+prod/
+app/**/*.js
 /.idea/mainSite.iml
 /.idea/modules.xml
 /.idea/vcs.xml
@@ -9,5 +11,4 @@ typings/
 /prod/app.bundle.js
 /prod/app.bundle.js.map
 /prod/main.bundle.js
-/prod/vendor.bundle.js
 /prod/vendor.bundle.js.map

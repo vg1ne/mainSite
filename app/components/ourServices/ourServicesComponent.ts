@@ -8,10 +8,7 @@ import { OurServicesService } from '../../services/ourServices.service';
 })
 export class OurServicesComponent {
     services: ServiceItem[]
-
-    constructor(private ourServicesService: OurServicesService ) {
-
-    }
+    constructor(private ourServicesService: OurServicesService ) {}
 
     ngOnInit() {
         this.services = this.ourServicesService.get()

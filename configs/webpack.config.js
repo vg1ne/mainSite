@@ -1,4 +1,4 @@
-﻿var webpack = require("webpack");
+﻿const webpack = require("webpack");
 
 module.exports = {
     entry: {
@@ -10,9 +10,10 @@ module.exports = {
         filename: "./prod/[name].bundle.js"
     },
     resolve: {
-        extensions: ['', '.js', '.ts', '.css']
+        extensions: ['', '.js', '.ts', '.css', '.html']
     },
     devtool: 'source-map',
+    devServer: { inline: true },
     module: {
         loaders: [
           {

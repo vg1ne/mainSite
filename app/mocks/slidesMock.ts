@@ -2,7 +2,7 @@
     home: [{
         id: 1,
         active: true,
-        imgUrl: '../../../styles/images/img_chania.jpg',
+        imgUrl: '../../../styles/images/homeSlide1.png',
         title: 'Brand',
         heading: 'A Fresh view',
         text: 'at the common knowledge',

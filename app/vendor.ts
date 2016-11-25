@@ -10,3 +10,6 @@ import '@angular/http';
 import '@angular/platform-browser';
 import '@angular/platform-browser-dynamic';
 import '@angular/router';
+
+import 'jquery/dist/jquery';
+import 'bootstrap/dist/js/bootstrap';

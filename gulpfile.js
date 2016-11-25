@@ -4,15 +4,10 @@ const concat = require('gulp-concat');
 const flatten = require('gulp-flatten')
 const webpack = require("webpack");
 const WebpackDevServer = require("webpack-dev-server");
-const webpackConfig = require("./configs/webpack.config.js");
+const webpackConfig = require("./webpack.config.js");
 const gutil = require('gutil');
-const cleanCss = require('gulp-clean-css')
-const stripCssComments = require('gulp-strip-css-comments');
 const less = require('gulp-less');
 const path = require('path');
-
-const lessFiles = ['app/**/*.less', 'styles/style.less'];
-const cssFiles = ['app/**/*.css', 'styles/bootstrap.css', 'dist/css/**/*.css'];
 
 gulp.task('cleanMapFiles', function () {
     return del('app/**/*.map.js').then(paths => {
@@ -26,27 +21,6 @@ gulp.task('cleanJsFiles', function () {
 });
 gulp.task('cleanCompiling', ['cleanMapFiles', 'cleanJsFiles'], function () { });
 
-gulp.task('styles', ['less'], function () {
-    gulp.src(cssFiles)
-      .pipe(flatten())
-      .pipe(concat('style.css'))
-      .pipe(stripCssComments())
-      .pipe(cleanCss())
-      .pipe(gulp.dest('prod'));
-});
-gulp.task('less', function () {
-    return gulp.src(lessFiles)
-      .pipe(less({
-          paths: [path.join(__dirname, 'less', 'includes')]
-      }))
-      .pipe(gulp.dest('./dist/css'));
-});
-
-gulp.task('vendors', function () {
-    return gulp.src(['app/scripts/jquery.js', 'app/scripts/bootstrap.js'])
-		.pipe(concat('vendors.bundle.js'))
-		.pipe(gulp.dest('prod'));
-});
 
 gulp.task("webpack", function (callback) {
     webpack(webpackConfig, function (err, stats) {
@@ -61,12 +35,10 @@ gulp.task("webpack:webpack-dev-server", function (callback) {
     new WebpackDevServer(compiler, {}).listen(8080, "localhost", function (err) {
         if (err) throw new gutil.PluginError("webpack-dev-server", err);
         gutil.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
-
-        // keep the server alive or continue?
         callback();
     });
 });
 
-gulp.task('default', ['styles', 'vendors'], function () {
+gulp.task('default', function () {
     gulp.start('webpack:webpack-dev-server');
 });

@@ -1,20 +1,18 @@
 <html>
 <head>
     <title>Trident</title>
-    <link href="prod/style.css" rel="stylesheet" />
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/bootstrap.js"></script>
     <script src="prod/vendor.bundle.js"></script>
     <script src="prod/app.bundle.js"></script>
+    <link rel="stylesheet" href="prod/style.css">
 </head>
 
 <body>
-    <my-app>
-        <div class="preloader-wrapper" [hidden]="!loading">
-            <div class="preloader-fill"></div>
-            <div class="preloader-img"></div>
-        </div>
-        <router-outlet></router-outlet>
-    </my-app>
+<my-app>
+    <div class="preloader-wrapper" [hidden]="!loading">
+        <div class="preloader-fill"></div>
+        <div class="preloader-img"></div>
+    </div>
+    <router-outlet></router-outlet>
+</my-app>
 </body>
 </html>

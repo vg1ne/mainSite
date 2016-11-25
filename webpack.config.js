@@ -5,8 +5,9 @@ module.exports = {
     entry: {
         "vendor": "./app/vendor",
         "app": "./app/main",
-        "webpack": 'webpack-dev-server/client?http://localhost:8080'
+        "webpack": 'webpack-dev-server/client?http://localhost:8081'
     },
+    publicPath: "http://localhost:8080/build",
     output: {
         path: __dirname,
         filename: "./prod/[name].bundle.js"
@@ -15,7 +16,10 @@ module.exports = {
         extensions: ['', '.js', '.ts']
     },
     devtool: 'source-map',
-    devServer: {inline: true},
+    devServer: {
+        inline: true,
+        contentBase:'./prod'
+    },
     module: {
         loaders: [
             {

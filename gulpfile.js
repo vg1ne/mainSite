@@ -6,7 +6,6 @@ const webpack = require("webpack");
 const WebpackDevServer = require("webpack-dev-server");
 const webpackConfig = require("./webpack.config.js");
 const gutil = require('gutil');
-const less = require('gulp-less');
 const path = require('path');
 
 gulp.task('cleanMapFiles', function () {
@@ -35,6 +34,8 @@ gulp.task("webpack:webpack-dev-server", function (callback) {
     new WebpackDevServer(compiler, {}).listen(8080, "localhost", function (err) {
         if (err) throw new gutil.PluginError("webpack-dev-server", err);
         gutil.log("[webpack-dev-server]", "http://localhost:8080/webpack-dev-server/index.html");
+
+        // keep the server alive or continue?
         callback();
     });
 });

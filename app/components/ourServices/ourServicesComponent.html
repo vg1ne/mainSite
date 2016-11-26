@@ -1,9 +1,11 @@
-<h1>Our services</h1>
-<p>Clients work with us for our user-first digital solutions with
-    a wealth of experience across multiple industries
-</p>
-<section class="row">
-    <a [routerLink]="['/ourService', item.id]" *ngFor="let item of services" class="col-sm-4 col-xs-12">
-        <service [sitem]="item"></service>
-    </a>
+<section class="container">
+    <h1 class="text-center">Our services</h1>
+    <p class="text-color-2 text-center">Clients work with us for our user-first digital solutions with
+        a wealth of experience across multiple industries
+    </p>
+    <section class="row">
+        <a [routerLink]="['/ourService', item.id]" *ngFor="let item of services" class="col-sm-4 col-xs-12">
+            <service [sitem]="item"></service>
+        </a>
+    </section>
 </section>

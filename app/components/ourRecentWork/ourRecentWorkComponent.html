@@ -1,13 +1,15 @@
-<h1>Our Recent Work</h1>
-<p>Plastic design & develop digital experiences that put people first.
-</p>
-<section class="row" *ngIf="recentWork">
-    <div *ngFor="let item of recentWork" class="col-sm-4 col-xs-12">
-        <a routerLink="/ourWork/{{item.id}}">
-            <work [witem]="item"></work>
-        </a>
-    </div>
+<section class="container">
+    <h1 class="text-center text-color-4">Our Recent Work</h1>
+    <p>Plastic design & develop digital experiences that put people first.
+    </p>
+    <section class="row" *ngIf="recentWork">
+        <div *ngFor="let item of recentWork" class="col-sm-4 col-xs-12">
+            <a routerLink="/ourWork/{{item.id}}">
+                <work [witem]="item"></work>
+            </a>
+        </div>
+    </section>
+    <p class="text-center">
+        <a routerLink="/portfolio">SEE ALL WORKS</a>
+    </p>
 </section>
-<p class="text-center">
-    <a routerLink="/portfolio">SEE ALL WORKS</a>
-</p>

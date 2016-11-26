@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {TranslateService} from "ng2-translate";
+import { MainService } from "./../../../services/main.service"
+
 @Component({
     selector: 'main-header',
     templateUrl: 'app/components/shared/headerComponent/headerComponent.html'
 })
 export class HeaderComponent {
-    constructor(private translate: TranslateService){
+    constructor(private translate: TranslateService, private mainService: MainService){
     }
 
     private get currentLang(){
@@ -21,6 +23,7 @@ export class HeaderComponent {
     }
 
     changeLang(lang: string) {
+        this.mainService.currentChosenLanguage = lang;
         this.translate.use(lang);
     }
 }

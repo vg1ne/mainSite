@@ -30,6 +30,7 @@ import { SlidesService } from "./services/slides.service";
 import { OurRecentWorksService } from "./services/ourRecentWorks.service";
 import { OurServicesService } from "./services/ourServices.service";
 import { WhyWeService } from "./services/whyWe.service";
+import { MainService } from "./services/main.service"
 
 import {TranslateModule} from 'ng2-translate';
 
@@ -49,7 +50,7 @@ import {TranslateModule} from 'ng2-translate';
         HomeSlider],
 
     bootstrap: [AppComponent],
-    providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {provide: LocationStrategy, useClass: HashLocationStrategy}]
+    providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {provide: LocationStrategy, useClass: HashLocationStrategy}, MainService]
 })
 export class AppModule {
 

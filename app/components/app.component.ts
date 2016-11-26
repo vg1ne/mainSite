@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {TranslateService} from 'ng2-translate';
+import { MainService } from "./../services/main.service"
 
 @Component({
     selector: 'my-app',
@@ -7,9 +8,9 @@ import {TranslateService} from 'ng2-translate';
 })
 
 export class AppComponent {
-    constructor(private translate: TranslateService) {
-        translate.addLangs(['en', 'ru']);
-        translate.setDefaultLang('en');
-        translate.use('en');
+    constructor(private translate: TranslateService, private mainService: MainService) {
+        translate.addLangs(mainService.possibleLanguages);
+        translate.setDefaultLang(mainService.currentChosenLanguage);
+        translate.use(mainService.currentChosenLanguage);
     }
 }

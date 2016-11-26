@@ -2,7 +2,7 @@
     home: [{
         id: 1,
         active: true,
-        imgUrl: '../../../styles/images/homeSlide1.png',
+        imgUrl: '../../../styles/images/header1.jpg',
         title: 'Brand',
         heading: 'A Fresh view',
         text: 'at the common knowledge',

@@ -5,7 +5,7 @@ module.exports = {
     entry: {
         "vendor": "./app/vendor",
         "app": "./app/main",
-        "webpack": 'webpack-dev-server/client?http://localhost:8081'
+        "webpack": 'webpack-dev-server/client?http://localhost:8080'
     },
     publicPath: "http://localhost:8080/build",
     output: {

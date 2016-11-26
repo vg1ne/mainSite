@@ -12,15 +12,15 @@
 
         <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a routerLinkActive="active" routerLink="/ourServices">Our services</a></li>
-                <li><a routerLinkActive="active" routerLink="/portfolio">Portfolio</a></li>
+                <li><a routerLinkActive="active" routerLink="/ourServices">{{'ourServices' | translate}}</a></li>
+                <li><a routerLinkActive="active" routerLink="/portfolio">{{'portfolio' | translate}}</a></li>
                 <li>
                     <div class="btn-group btn-group-sm">
-                        <button type="button" class="btn btn-default">En</button>
-                        <button type="button" class="btn btn-default">Ru</button>
+                        <button type="button" [ngClass]="{'btn-primary':isEnglish}" (click)="changeLang('en')" class="btn btn-default">En</button>
+                        <button type="button" [ngClass]="{'btn-primary':isRussian}" (click)="changeLang('ru')" class="btn btn-default">Ru</button>
                     </div>
                 </li>
-                <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">Contact Us</a></li>
+                <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs' | translate}}</a></li>
             </ul>
         </div>
     </div>

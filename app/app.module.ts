@@ -31,9 +31,10 @@ import { OurRecentWorksService } from "./services/ourRecentWorks.service";
 import { OurServicesService } from "./services/ourServices.service";
 import { WhyWeService } from "./services/whyWe.service";
 
+import {TranslateModule} from 'ng2-translate';
 
 @NgModule({
-    imports: [BrowserModule, routing],
+    imports: [BrowserModule, routing, TranslateModule.forRoot()],
     declarations: [AppComponent,
 
         HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,

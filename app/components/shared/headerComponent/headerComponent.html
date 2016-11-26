@@ -14,8 +14,13 @@
             <ul class="nav navbar-nav">
                 <li><a routerLinkActive="active" routerLink="/ourServices">Our services</a></li>
                 <li><a routerLinkActive="active" routerLink="/portfolio">Portfolio</a></li>
-                <li><a>En/Ru</a></li>
-                <li><a routerLinkActive="active" routerLink="/contactUs" class="btn btn-success border-radius">Contact Us</a></li>
+                <li>
+                    <div class="btn-group btn-group-sm">
+                        <button type="button" class="btn btn-default">En</button>
+                        <button type="button" class="btn btn-default">Ru</button>
+                    </div>
+                </li>
+                <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">Contact Us</a></li>
             </ul>
         </div>
     </div>

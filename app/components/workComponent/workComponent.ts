@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import {Work} from '../../models/workModel'
+require("./workComponent.less")
 
 @Component({
     selector: 'work',

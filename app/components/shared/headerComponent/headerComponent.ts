@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslateService} from "ng2-translate";
 import { MainService } from "./../../../services/main.service"
-
+require("./headerComponent.less")
 @Component({
     selector: 'main-header',
     templateUrl: 'app/components/shared/headerComponent/headerComponent.html'

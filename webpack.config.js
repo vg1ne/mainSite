@@ -13,7 +13,7 @@ module.exports = {
         filename: "./prod/[name].bundle.js"
     },
     resolve: {
-        extensions: ['', '.js', '.ts']
+        extensions: ['', '.js', '.ts', '.less']
     },
     devtool: 'source-map',
     devServer: {
@@ -33,14 +33,13 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                exclude: /node_modules/,
-                loader: ExtractTextPlugin.extract("style!css!less"),
-                include: ['./app', './styles']
+                loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
             },
             {
                 test: /bootstrap.+\.(jsx|js)$/,
                 loader: 'imports?jQuery=jquery,$=jquery,this=>window'
-            }
+            },
+            { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
         ]
     },
     watch: true,

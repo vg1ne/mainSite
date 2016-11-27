@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {TranslateService} from 'ng2-translate';
 import { MainService } from "./../services/main.service"
+require("./../../styles/style.less")
 
 @Component({
     selector: 'my-app',
@@ -14,3 +15,4 @@ export class AppComponent {
         translate.use(mainService.currentChosenLanguage);
     }
 }
+

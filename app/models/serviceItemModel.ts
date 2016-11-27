@@ -3,4 +3,5 @@ export class ServiceItem{
     title: string
     desc: string
     imgUrl: string
+    bigImgUrl: string
 }

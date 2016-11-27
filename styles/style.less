@@ -1,4 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "variables";
+
 my-app,
 why-we,
 about-us{
@@ -14,9 +16,22 @@ body {
   border-radius: 3px;
 }
 
+.logo{
+  width: 100px;
+  height: 50px;
+  padding: 0;
+  display: block;
+  background: url("../styles/images/Logo.png") no-repeat center center;
+  background-size: contain;
+}
+
 .subheader.imaged {
   height: 25em;
-  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #464646;
   position: relative;
 }
 

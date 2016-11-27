@@ -1,3 +1,4 @@
+@import "../../../styles/variables";
 .work-item-wrapper {
     margin-bottom: 1em;
 }
@@ -8,15 +9,8 @@
     line-height: 15em;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-    width: 100%;
-}
-
 .work-container {
-    background: gray;
+    background: @gray2;
     position: relative;
     overflow: hidden;
     background-size: cover;
@@ -24,7 +18,7 @@
     .vertical-centered {
         position: relative;
         z-index: 1;
-        color: white;
+        color: @white;
         line-height: 15em;
         text-align: center;
     }

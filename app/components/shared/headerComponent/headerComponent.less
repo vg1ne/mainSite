@@ -1,5 +1,6 @@
+@import "../../../../styles/variables";
+
 main-header{
-    display: block;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -8,23 +9,15 @@ main-header{
 }
 
 .navbar.navbar-default{
-    background: black;
+    background: @black;
     border: none;
     border-radius: 0;
 }
 
-.navbar-default .navbar-brand{
-
-    color: white;
-    .logo-point{
-        color: green;
-        font-weight:bold;
-    }
-}
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover{
-    color: white;
+    color: @white;
 }
 
 .nav.navbar-nav{
@@ -33,10 +26,10 @@ main-header{
             border-bottom: 3px solid transparent;
 
             &.active{
-                border-color: green;
+                border-color: @green;
             }
             &.btn-wider.btn.btn-success{
-                border-color: green;
+                border-color: @green;
             }
         }
     }

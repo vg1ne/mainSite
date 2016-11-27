@@ -1,14 +1,17 @@
+@import "../../../../styles/variables";
+
 .main-footer {
-    background: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2.5em;
-    z-index: 15;
-    color: white;
+  background: @black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5em;
+  z-index: 15;
+  color: @white;
+
+  .footer-text {
+    margin-top: 0.5em;
+    color: @white;
+  }
 }
 
-.main-footer .footer-text {
-    margin-top: 0.5em;
-    color: white;
-}

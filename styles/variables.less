@@ -1,7 +1,42 @@
-@green: #abda39;
-@blue: #4556e1;
+/*#region new variables */
+@green: #95DA15;
+@blue: #3956E6;
 @white: #fff;
-@gray: #4d4b4a;
-@black: #27282c;
-@light-gray: #eff3f5;
-@gray2: #8c8e92;
+@gray: #7A787B;
+@gray2: #EEF4F7;
+@black: #000;
+@gray-light: #E1E7EA;
+
+@h1-font-size: 6rem;
+@h2-font-size: 5rem;
+@h3-font-size: 4rem;
+@h4-font-size: 3rem;
+@h5-font-size: 2rem;
+
+@nav-font-size: 2rem;
+@text-default-font-size: 2rem;
+@btn-font-size: 2rem;
+@card-font-size: 40rem;
+/*#endregion */
+
+
+/*#region variables uses */
+@nav-decorations-color: @green;
+@tag-bg-color: @blue;
+@text-color-1: @white;
+@text-color-2: @gray;
+@button-border-color-1: @green;
+@text-color-3: @black;
+@block-border: @gray-light;
+@block-bg-1: @gray2;
+@link-color-1: @green;
+@btn-success-bg: @green;
+/*#endregion */
+
+/*#region mixins */
+.border-radius(@r: 3px) {
+  border-radius: @r;
+}
+
+
+/*#endregion */

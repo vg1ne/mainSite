@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {TranslateService} from 'ng2-translate';
 import { MainService } from "./../services/main.service"
 require("./../../styles/style.less")
+require("./../../styles/mediaQueries.less")
 
 @Component({
     selector: 'my-app',

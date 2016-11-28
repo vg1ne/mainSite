@@ -9,7 +9,7 @@ const gutil = require('gutil');
 const path = require('path');
 
 gulp.task('cleanMapFiles', function () {
-    return del('app/**/*.map.js').then(paths => {
+    return del(['app/**/*.map.js']).then(paths => {
         console.log('Deleted files and folders:\n', paths.join('\n'));
     });
 });

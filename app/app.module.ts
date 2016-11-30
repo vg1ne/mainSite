@@ -12,10 +12,8 @@ import { WorkComponent } from "./components/workComponent/workComponent";
 import { ContactUsComponent } from "./components/contactUs/contactUs";
 import { FooterComponent } from "./components/shared/footerComponent/footerComponent";
 import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent";
-import { HomeSlider } from "./components/homeSlider/homeSlider";
-import { SlideComponent } from "./components/slideComponent/slideComponent";
+import { MainSlideComponent } from "./components/slides/mainSlideComponent/mainSlideComponent";
 import { PreloaderComponent } from "./components/shared/preloaderComponent/preloaderComponent";
-
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
@@ -33,9 +31,10 @@ import { WhyWeService } from "./services/whyWe.service";
 import { MainService } from "./services/main.service"
 
 import {TranslateModule} from 'ng2-translate';
+import { CarouselModule  } from 'ng2-bootstrap/ng2-bootstrap';
 
 @NgModule({
-    imports: [BrowserModule, routing, TranslateModule.forRoot()],
+    imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot()],
     declarations: [AppComponent,
 
         HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,
@@ -46,8 +45,7 @@ import {TranslateModule} from 'ng2-translate';
         ServiceComponent, WhyWeComponent, ProfitComponent,
         OurRecentWorkComponent, WorkComponent,
         ContactUsComponent,
-        SlideComponent,PreloaderComponent,
-        HomeSlider],
+        MainSlideComponent, PreloaderComponent],
 
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {provide: LocationStrategy, useClass: HashLocationStrategy}, MainService]

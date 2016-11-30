@@ -1,5 +1,11 @@
-﻿<home-slider></home-slider>
-<our-services></our-services>
+﻿<carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+    <slide *ngFor="let slidez of homeSlides; let index=index"
+           [active]="slidez.active">
+        <main-slide [slide]="slidez"></main-slide>
+    </slide>
+</carousel>
+
+<our-services class="hidden-sm"></our-services>
 <why-we></why-we>
 <our-recent-work></our-recent-work>
 <contact-us></contact-us>

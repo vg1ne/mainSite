@@ -4,7 +4,7 @@ import {ourRecentWorks} from '../mocks/ourRecentWorksMock';
 
 @Injectable()
 export class OurRecentWorksService {
-    getOurRecentWorks(): Work[] {
+    get(): Work[] {
         return ourRecentWorks
     }
 

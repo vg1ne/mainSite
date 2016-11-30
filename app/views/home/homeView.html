@@ -1,12 +1,78 @@
-﻿<carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
-    <slide *ngFor="let slidez of homeSlides; let index=index"
-           [active]="slidez.active">
-        <main-slide [slide]="slidez"></main-slide>
-    </slide>
-</carousel>
+﻿<section class="main-slider-section">
+    <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+        <slide *ngFor="let slidez of homeSlides; let index=index"
+               [active]="slidez.active">
+            <main-slide [slide]="slidez"></main-slide>
+        </slide>
+    </carousel>
+</section>
 
-<our-services class="hidden-sm"></our-services>
-<why-we></why-we>
-<our-recent-work></our-recent-work>
+<section class="our-services-section">
+    <h1 class="text-center">{{'Our services' | translate}}</h1>
+    <p class="text-color-2 text-center">Clients work with us for our user-first digital solutions with
+        a wealth of experience across multiple industries
+    </p>
+    <section class="container hidden-sm hidden-xs">
+        <a [routerLink]="['/ourService', item.id]" *ngFor="let item of services" class="col-md-4 col-sm-6 col-xs-12">
+            <service [sitem]="item"></service>
+        </a>
+    </section>
+    <section class="clearfix visible-sm visible-xs">
+        <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+            <slide *ngFor="let slidez of services; let index=index"
+                   [active]="slidez.active">
+                <service [sitem]="slidez"></service>
+            </slide>
+        </carousel>
+    </section>
+</section>
+
+<section class="why-we-section">
+    <div class="bg-color-1">
+        <div class="bg-color-1 positive-aspects">
+            <div class="hidden-sm hidden-xs container">
+                <div *ngFor="let item of profits" class="col-sm-4 col-xs-12">
+                    <profit [pitem]="item"></profit>
+                </div>
+            </div>
+            <div class="visible-sm visible-xs">
+                <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+                    <slide *ngFor="let slidez of profits; let index=index"
+                           [active]="slidez.active">
+                        <profit [pitem]="slidez"></profit>
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-works-section">
+    <div>
+        <h1 class="text-center">Our Recent Work</h1>
+        <p class="text-center">Plastic design & develop digital experiences that put people first.</p>
+        <div class="hidden-sm hidden-xs container">
+            <div class="row">
+                <div *ngFor="let item of ourWorks" class="col-sm-4 col-xs-12">
+                    <a routerLink="/ourWork/{{item.id}}">
+                        <work [witem]="item"></work>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="visible-sm visible-xs">
+            <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+                <slide *ngFor="let slidez of ourWorks; let index=index"
+                       [active]="slidez.active">
+                    <work [witem]="slidez"></work>
+                </slide>
+            </carousel>
+        </div>
+        <p class="text-center">
+            <a routerLink="/portfolio" class="text-color-6">SEE ALL WORKS</a>
+        </p>
+    </div>
+</section>
+
 <contact-us></contact-us>
 <sub-footer></sub-footer>

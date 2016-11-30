@@ -3,16 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './components/app.component';
 import { routing } from "./routing";
 import { HeaderComponent } from './components/shared/headerComponent/headerComponent';
-import { OurServicesComponent } from "./components/ourServices/ourServicesComponent";
 import { ServiceComponent } from "./components/serviceComponent/serviceComponent";
-import { WhyWeComponent } from "./components/whyWe/whyWeComponent";
 import { ProfitComponent } from "./components/profitComponent/profitComponent";
-import { OurRecentWorkComponent } from "./components/ourRecentWork/ourRecentWorkComponent";
 import { WorkComponent } from "./components/workComponent/workComponent";
 import { ContactUsComponent } from "./components/contactUs/contactUs";
 import { FooterComponent } from "./components/shared/footerComponent/footerComponent";
 import { SubFooterComponent } from "./components/shared/subFooterComponent/subFooterComponent";
-import { MainSlideComponent } from "./components/slides/mainSlideComponent/mainSlideComponent";
+import { MainSlideComponent } from "./components/mainSlideComponent/mainSlideComponent";
 import { PreloaderComponent } from "./components/shared/preloaderComponent/preloaderComponent";
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
@@ -41,9 +38,7 @@ import { CarouselModule  } from 'ng2-bootstrap/ng2-bootstrap';
 
         HeaderComponent, SubFooterComponent, FooterComponent,
 
-        OurServicesComponent,
-        ServiceComponent, WhyWeComponent, ProfitComponent,
-        OurRecentWorkComponent, WorkComponent,
+        ServiceComponent, ProfitComponent, WorkComponent,
         ContactUsComponent,
         MainSlideComponent, PreloaderComponent],
 

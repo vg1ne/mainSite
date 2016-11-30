@@ -39,6 +39,10 @@ module.exports = {
                 test: /bootstrap.+\.(jsx|js)$/,
                 loader: 'imports?jQuery=jquery,$=jquery,this=>window'
             },
+            {
+                test: /\.html$/,
+                loader: "html-loader"
+            },
             { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
         ]
     },

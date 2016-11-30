@@ -3,7 +3,7 @@ require("./contactUs.less")
 
 @Component({
   selector: 'contact-us',
-  templateUrl: 'app/components/contactUs/contactUs.html'
+  template: require("./contactUs.html")
 })
 export class ContactUsComponent {
     constructor() { }

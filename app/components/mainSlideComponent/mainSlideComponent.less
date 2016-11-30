@@ -1,24 +1,37 @@
 @import "../../../styles/variables";
-.carousel .slider-img{
-    position: absolute;
+
+main-slide{
+  position: relative;
+  display: block;
+  margin-top: -10%;
 }
-.carousel .slide{
-    position: relative;
-    height: 100%;
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size:cover;
-    background-color: @gray2;
-    padding: 15%;
+.carousel .slider-img {
+  position: absolute;
 }
 
-.carousel .item{
-    color: @white;
+.carousel .slide {
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: @gray2;
+  padding: 0 10%;
+  height: 100%;
 }
 
-.slide-mark{
-    display: inline-block;
-    background: @blue;
-    padding: 0.5em 2em;
+.carousel .item {
+  color: @white;
+}
+
+.slide-info {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.slide-mark {
+  display: inline-block;
+  background: @blue;
+  padding: 0.5em 2em;
 }

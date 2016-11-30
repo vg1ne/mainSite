@@ -16,20 +16,25 @@ export class HomeView {
                 private  ourServices: OurServicesService,
     private whyWeService: WhyWeService,
     private ourRecentWorksService: OurRecentWorksService) { }
+
     homeSlides: Slide[]
     services: ServiceItem[]
     profits: Profit[]
     ourWorks: Work[]
 
     ngOnInit() {
+        this.getSlidesInfo()
+    }
+
+    getSlidesInfo(){
         this.homeSlides = this.slidesService.getHomeSlides()
         this.services = this.ourServices.get()
         this.profits = this.whyWeService.get()
         this.ourWorks= this.ourRecentWorksService.get()
     }
-
     carousel: any = {
         interval : 5000,
-        noWrapSlides: false
+        noWrapSlides: false,
+        noTransition: false
     }
 }

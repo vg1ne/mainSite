@@ -4,7 +4,7 @@ import { OurServicesService } from '../../services/ourServices.service';
 import { ServiceItem } from '../../models/serviceItemModel';
 
 @Component({
-    templateUrl: 'app/views/ourService/ourServiceView.html'
+    template: require("./views/ourServiceView_1.html")
 })
 
 export class OurServiceView {

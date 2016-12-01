@@ -16,7 +16,7 @@
     {
         id: 3,
         title: 'Web development',
-        desc: 'Vel sapien elit in malesuada semper mi, id sollicitudin.',
+        desc: 'From Many Small Gears Into A Single Driving Force',
         imgUrl: '../../../../styles/images/service3.jpg',
         bigImgUrl: '../../../../styles/images/service1_b.jpg'
     },

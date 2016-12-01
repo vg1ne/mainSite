@@ -163,14 +163,7 @@ p {
     .hidden-sm.hidden-xs.container {
         .profit {
             padding-top: 3em;
-            border-right: 1px solid @border-color-1;
-
-            &:nth-of-type(-n+3) {
-                border-bottom: 1px solid @border-color-1;
-            }
-            &:nth-child(-3n+6){
-                border-right: none;
-            }
+            .nth-child-border(@border-color-1)
         }
     }
 }

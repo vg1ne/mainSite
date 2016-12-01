@@ -20,6 +20,7 @@
     <section class="clearfix visible-sm visible-xs">
         <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
             <slide *ngFor="let slidez of services; let index=index"
+                   [routerLink]="['/ourService', slidez.id]"
                    [active]="slidez.active">
                 <service [sitem]="slidez"></service>
             </slide>

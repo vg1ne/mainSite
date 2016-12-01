@@ -2,6 +2,7 @@ node_modules/
 dist/
 prod/
 app/**/*.js
+app/**/*.map
 /.idea/mainSite.iml
 /.idea/modules.xml
 /.idea/vcs.xml
@@ -37,3 +38,13 @@ app/**/*.js
 /app/views/contactUs/contactUsView.js.map
 /app/views/ourWork/ourWorkView.js.map
 /app/views/portfolio/portfolioView.js.map
+/app/components/*.map
+/app/views/home/*.map
+/app/views/ourService/*.map
+/app/views/ourServices/*.map
+/app/components/shared/headerComponent/*.map
+/app/components/mainSlideComponent/mainSlideComponent.js.map
+/app/components/serviceComponent/serviceComponent.js.map
+/app/components/shared/footerComponent/footerComponent.js.map
+/app/components/shared/preloaderComponent/preloaderComponent.js.map
+/app/components/shared/subFooterComponent/subFooterComponent.js.map

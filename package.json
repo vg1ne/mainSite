@@ -20,6 +20,7 @@
     "@types/node": "0.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "moment": "^2.17.0",
     "ng2-bootstrap": "^1.1.16",
     "ng2-translate": "^4.0.1",
     "reflect-metadata": "^0.1.3",
@@ -29,6 +30,7 @@
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
+    "@types/moment": "^2.13.0",
     "@types/node": "0.0.1",
     "autoprefixer-loader": "^3.2.0",
     "babel-preset-es2015": "^6.18.0",

@@ -4,11 +4,10 @@ import { OurServicesService } from '../../services/ourServices.service';
 import { ServiceItem } from '../../models/serviceItemModel';
 
 @Component({
-    template: require("./views/ourServiceView_1.html")
+    template: require("./ourServiceView.html")
 })
 
 export class OurServiceView {
-
     id: number
     private sub: any
     service: ServiceItem 

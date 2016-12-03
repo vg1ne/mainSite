@@ -21,6 +21,13 @@ import { ContactUsView } from "./views/contactUs/contactUsView"
 import { OurServiceView } from "./views/ourService/ourServiceView"
 import { OurWorkView} from "./views/ourWork/ourWorkView"
 
+import { OurServiceView_1} from "./views/ourService/views/ourServiceView_1"
+import { OurServiceView_2} from "./views/ourService/views/ourServiceView_2"
+import { OurServiceView_3} from "./views/ourService/views/ourServiceView_3"
+import { OurServiceView_4} from "./views/ourService/views/ourServiceView_4"
+import { OurServiceView_5} from "./views/ourService/views/ourServiceView_5"
+import { OurServiceView_6} from "./views/ourService/views/ourServiceView_6"
+
 import { SlidesService } from "./services/slides.service";
 import { OurRecentWorksService } from "./services/ourRecentWorks.service";
 import { OurServicesService } from "./services/ourServices.service";
@@ -35,6 +42,7 @@ import { CarouselModule  } from 'ng2-bootstrap/ng2-bootstrap';
     declarations: [AppComponent,
 
         HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,
+        OurServiceView_1,OurServiceView_2,OurServiceView_3,OurServiceView_4,OurServiceView_5,OurServiceView_6,
 
         HeaderComponent, SubFooterComponent, FooterComponent,
 

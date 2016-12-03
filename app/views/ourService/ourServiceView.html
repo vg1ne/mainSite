@@ -5,12 +5,7 @@
             <h2 class="text-center hidden-sm hidden-xs text-color-5">{{service.desc}}</h2>
         </div>
     </div>
-    <service-1 [service]="service" *ngIf="id==1"></service-1>
-    <service-2 [service]="service" *ngIf="id==2"></service-2>
-    <service-3 [service]="service" *ngIf="id==3"></service-3>
-    <service-4 [service]="service" *ngIf="id==4"></service-4>
-    <service-5 [service]="service" *ngIf="id==5"></service-5>
-    <service-6 [service]="service" *ngIf="id==6"></service-6>
+    <router-outlet></router-outlet>
 </section>
 
 

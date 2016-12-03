@@ -15,11 +15,9 @@
                     <div class="col-sm-4">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="#">Brand</a></li>
-                            <li><a href="#">UI/UX design</a></li>
-                            <li><a href="#">Web development</a></li>
-                            <li><a href="#">Mobile development</a></li>
-                            <li><a href="#">Content creation</a></li>
+                            <li *ngFor="let service of services">
+                                <a href="#" [routerLink]="['/ourService', service.id]">{{service.title}}</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-sm-4">

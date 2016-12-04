@@ -10,7 +10,6 @@ import { ServiceItem } from '../../models/serviceItemModel';
 export class OurServiceView {
     id: number
     private sub: any
-    service: ServiceItem 
 
     constructor(private route: ActivatedRoute, private ourServicesService: OurServicesService) {}
 
@@ -18,9 +17,10 @@ export class OurServiceView {
         this.sub = this.route.params.subscribe(params => {
             this.id = +params['id'];
         });
-        this.service = this.ourServicesService.getById(this.id)
     }
-
+    get service(){
+        return this.ourServicesService.getById(this.id)
+    }
     ngOnDestroy() {
         this.sub.unsubscribe();
     }

@@ -29,6 +29,10 @@ main-header{
             font-size: @nav-font-size;
             border-bottom: 3px solid transparent;
 
+            &:hover{
+                text-decoration: none;
+            }
+
             &.active{
                 border-color: @green;
             }
@@ -50,6 +54,11 @@ main-header{
                 li a:hover{
                     background: @gray;
                 }
+            }
+        }
+        .active-link-wr{
+            &>a.submenu-trigger{
+                border-color: @nav-decorations-color;
             }
         }
     }

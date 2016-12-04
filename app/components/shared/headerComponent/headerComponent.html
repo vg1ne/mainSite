@@ -13,15 +13,14 @@
         <div class="collapse navbar-collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
                 <li>
-                    <div class="btn-group">
+                    <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
                         <a class="submenu-trigger" data-toggle="dropdown" href="#">
                             <span>{{'ourServices' | translate}}</span>
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li *ngFor="let item of services">
-                                <a [routerLink]="['/ourService', item.id]">{{item.title}}
-                                </a>
+                                <a [routerLink]="['/ourService', item.id]">{{item.title}}</a>
                             </li>
                         </ul>
                     </div>

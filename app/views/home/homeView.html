@@ -34,8 +34,8 @@
         <p class="text-center hidden-xs hidden-sm">Plastic design & develop digital experiences that put people first.</p>
         <div class="hidden-sm hidden-xs container">
             <div class="row">
-                <div *ngFor="let item of ourWorks" class="col-sm-4 col-xs-12">
-                    <a routerLink="/ourWork/{{item.id}}">
+                <div *ngFor="let item of ourWorks;  let i=index" class="col-sm-4 col-xs-12">
+                    <a routerLink="/ourWork/{{item.id}}" *ngIf="i<3">
                         <work [witem]="item"></work>
                     </a>
                 </div>

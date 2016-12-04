@@ -16,7 +16,7 @@
                         <h4>Services</h4>
                         <ul>
                             <li *ngFor="let item of services">
-                                <a [routerLink]="['/ourService', item.id]">
+                                <a [routerLink]="['/ourService', item.id]">{{item.title}}
                                   </a>
                             </li>
                         </ul>

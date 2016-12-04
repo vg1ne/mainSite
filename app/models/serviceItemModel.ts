@@ -4,4 +4,6 @@ export class ServiceItem{
     desc: string
     imgUrl: string
     bigImgUrl: string
+    providing: boolean
+    showingPriority: number
 }

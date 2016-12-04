@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
 @Component({
-    templateUrl: 'app/views/contactUs/contactUsView.html'
+    template: require("./contactUsView.html")
 })
 export class ContactUsView { }

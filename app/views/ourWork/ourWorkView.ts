@@ -4,7 +4,7 @@ import { OurRecentWorksService } from '../../services/ourRecentWorks.service';
 import { Work } from '../../models/workModel';
 
 @Component({
-    templateUrl: 'app/views/ourWork/ourWorkView.html'
+    template: require("./ourWorkView.html")
 })
 export class OurWorkView {
     id: number

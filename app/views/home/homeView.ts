@@ -9,7 +9,7 @@ import {WhyWeService} from "../../services/whyWe.service"
 import {OurRecentWorksService} from "../../services/ourRecentWorks.service"
 
 @Component({
-  templateUrl: './app/views/home/homeView.html'
+  template: require("./homeView.html")
 })
 export class HomeView {
     constructor(private slidesService: SlidesService,

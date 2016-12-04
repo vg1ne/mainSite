@@ -25,6 +25,8 @@ main-header{
 .nav.navbar-nav{
     li{
         a{
+            color: @white;
+            font-size: @nav-font-size;
             border-bottom: 3px solid transparent;
 
             &.active{
@@ -34,6 +36,19 @@ main-header{
                 border-color: @green;
                 &:hover{
                     border-color: @btn-success-background-hover;
+                }
+            }
+            &.submenu-trigger{
+                padding: 15px;
+                display: inline-block;
+                background-color: transparent;
+            }
+        }
+        .btn-group{
+            .dropdown-menu{
+                background: @black;
+                li a:hover{
+                    background: @gray;
                 }
             }
         }

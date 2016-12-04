@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {TranslateService} from "ng2-translate";
 import { MainService } from "./../../../services/main.service"
+import {OurServicesService} from "./../../../services/ourServices.service"
 require("./headerComponent.less")
 
 @Component({
@@ -8,9 +9,11 @@ require("./headerComponent.less")
     template: require("./headerComponent.html")
 })
 export class HeaderComponent {
-    constructor(private translate: TranslateService, private mainService: MainService){
+    constructor(private translate: TranslateService,
+                private mainService: MainService,
+                private ourServicesService: OurServicesService){
     }
-
+    services = this.ourServicesService.get()
     private get currentLang(){
         return this.translate.currentLang
     }

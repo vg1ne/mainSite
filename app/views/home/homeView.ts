@@ -11,6 +11,7 @@ import {OurRecentWorksService} from "../../services/ourRecentWorks.service"
 @Component({
   template: require("./homeView.html")
 })
+
 export class HomeView {
     constructor(private slidesService: SlidesService,
                 private  ourServices: OurServicesService,

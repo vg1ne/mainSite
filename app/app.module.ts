@@ -7,6 +7,8 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {components} from "./helpers/components.helper"
 import {views} from "./helpers/views.helper"
 
+import { OrderByPipe } from 'angular-pipes/src/array/order-by.pipe';
+
 import {SlidesService} from "./services/slides.service";
 import {OurRecentWorksService} from "./services/ourRecentWorks.service";
 import {OurServicesService} from "./services/ourServices.service";
@@ -18,7 +20,7 @@ import {CarouselModule} from 'ng2-bootstrap/ng2-bootstrap';
 
 @NgModule({
     imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot()],
-    declarations: [AppComponent, views, components],
+    declarations: [AppComponent, views, components, OrderByPipe],
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {
         provide: LocationStrategy,

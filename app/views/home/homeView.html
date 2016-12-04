@@ -28,6 +28,25 @@
     </section>
 </section>-->
 
+<section class="services">
+    <h1 class="text-center">{{'Our services' | translate}}</h1>
+    <p class="text-color-2 text-center hidden-sm hidden-xs">Clients work with us for our user-first digital solutions with
+        a wealth of experience across multiple industries
+    </p>
+    <section class="container">
+        <ul>
+            <li *ngFor="let item of services" class="col-md-4 col-sm-6">
+                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">
+                    {{item.title}}
+                </a>
+                <span *ngIf="!item.providing">
+                    {{item.title}}
+                </span>
+            </li>
+        </ul>
+    </section>
+</section>
+
 <section class="our-works-section">
     <div>
         <h1 class="text-center">Our Recent Work</h1>

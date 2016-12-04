@@ -1,45 +1,47 @@
-<section class="sub-footer container">
-    <div class="row">
-        <div class="col-sm-6">
-            <p>
-                <span><b>Trident</b></span><em class="text-success">. agency</em>
-            </p>
-            <p>
-                We provide a full range of <br />
-                IT-services, creating amazing things for customers worldwide.
-            </p>
-        </div>
-        <div class="col-sm-6">
-            <div class="subfooter-menu hidden-xs">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h4>Services</h4>
-                        <ul>
-                            <li *ngFor="let item of services">
-                                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">{{item.title}}
-                                  </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <h4>About Us</h4>
-                        <ul>
-                            <li><a routerLinkActive="active" routerLink="/aboutUs">About us</a></li>
-                            <li><a href="#">Workflow</a></li>
-                            <li><a href="#">Privacy police</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4">
-                        <h4>Support</h4>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">E-mail</a></li>
-                        </ul>
+<div class="bg-color-1">
+    <section class="sub-footer container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>
+                    <span><b>Trident</b></span><em class="text-success">. agency</em>
+                </p>
+                <p>
+                    We provide a full range of <br />
+                    IT-services, creating amazing things for customers worldwide.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <div class="subfooter-menu hidden-xs">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4>Services</h4>
+                            <ul>
+                                <li *ngFor="let item of services">
+                                    <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">{{item.title}}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>About Us</h4>
+                            <ul>
+                                <li><a routerLinkActive="active" routerLink="/aboutUs">About us</a></li>
+                                <li><a href="#">Workflow</a></li>
+                                <li><a href="#">Privacy police</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">E-mail</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>

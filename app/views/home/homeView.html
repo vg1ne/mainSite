@@ -34,7 +34,7 @@
         a wealth of experience across multiple industries
     </p>
     <section class="container">
-        <ul>
+        <ul class="row">
             <li *ngFor="let item of services" class="col-md-4 col-sm-6">
                 <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">
                     {{item.title}}
@@ -44,6 +44,9 @@
                 </span>
             </li>
         </ul>
+        <div class="text-center">
+            <a href="#" class="btn btn-primary workflow border-radius btn-wider">Workflow</a>
+        </div>
     </section>
 </section>
 

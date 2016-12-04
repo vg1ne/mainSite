@@ -20,6 +20,7 @@ import { OurServicesView } from "./views/ourServices/ourServicesView"
 import { ContactUsView } from "./views/contactUs/contactUsView"
 import { OurServiceView } from "./views/ourService/ourServiceView"
 import { OurWorkView} from "./views/ourWork/ourWorkView"
+import {AboutUsView} from "./views/aboutUs/aboutUs"
 
 import { OurServiceView_1} from "./views/ourService/views/ourServiceView_1"
 import { OurServiceView_2} from "./views/ourService/views/ourServiceView_2"
@@ -41,7 +42,7 @@ import { CarouselModule  } from 'ng2-bootstrap/ng2-bootstrap';
     imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot()],
     declarations: [AppComponent,
 
-        HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,
+        HomeView, PortfolioView, OurServicesView, ContactUsView, OurServiceView, OurWorkView,AboutUsView,
         OurServiceView_1,OurServiceView_2,OurServiceView_3,OurServiceView_4,OurServiceView_5,OurServiceView_6,
 
         HeaderComponent, SubFooterComponent, FooterComponent,

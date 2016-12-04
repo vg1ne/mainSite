@@ -1,0 +1,17 @@
+﻿<section class="why-we-section">
+    <div class="bg-color-1">
+        <div class="bg-color-1 positive-aspects">
+            <div class="hidden-sm hidden-xs container">
+                <profit [pitem]="item" class="col-sm-4 col-xs-12 profit" *ngFor="let item of profits"></profit>
+            </div>
+            <div class="visible-sm visible-xs">
+                <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
+                    <slide *ngFor="let slidez of profits; let index=index"
+                           [active]="slidez.active">
+                        <profit [pitem]="slidez"></profit>
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+    </div>
+</section>

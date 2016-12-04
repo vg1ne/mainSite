@@ -15,17 +15,16 @@
                     <div class="col-sm-4">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="#">Brand</a></li>
-                            <li><a href="#">UI/UX design</a></li>
-                            <li><a href="#">Web development</a></li>
-                            <li><a href="#">Mobile development</a></li>
-                            <li><a href="#">Content creation</a></li>
+                            <li *ngFor="let item of services">
+                                <a [routerLink]="['/ourService', item.id]">
+                                  </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-sm-4">
                         <h4>About Us</h4>
                         <ul>
-                            <li><a href="#">About us</a></li>
+                            <li><a routerLinkActive="active" routerLink="/aboutUs">About us</a></li>
                             <li><a href="#">Workflow</a></li>
                             <li><a href="#">Privacy police</a></li>
                             <li><a href="#">Terms & Conditions</a></li>

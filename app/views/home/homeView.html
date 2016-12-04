@@ -44,7 +44,7 @@
         <div class="visible-sm visible-xs">
             <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
                 <slide *ngFor="let slidez of ourWorks; let index=index"
-                       [active]="slidez.active">                    
+                       [active]="slidez.active">
                     <work [witem]="slidez"></work>
                 </slide>
             </carousel>

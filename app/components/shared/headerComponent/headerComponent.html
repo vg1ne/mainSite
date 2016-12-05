@@ -20,12 +20,27 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li *ngFor="let item of services">
-                                <a [routerLink]="['/ourService', item.id]">{{item.title}}</a>
+                                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">{{item.title}}</a>
                             </li>
                         </ul>
                     </div>
                 </li>
-                <li><a routerLinkActive="active" routerLink="/aboutUs">{{'About us' | translate}}</a></li>
+                <li>
+                    <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
+                        <a class="submenu-trigger" data-toggle="dropdown" href="#">
+                            <span>{{'About us' | translate}}</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a [routerLink]="['/experience']">{{'experience' | translate}}</a>
+                            </li>
+                            <li>
+                                <a [routerLink]="['/workflow']">{{'workflow' | translate}}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li><a routerLinkActive="active" routerLink="/portfolio">{{'portfolio' | translate}}</a></li>
                 <li>
                     <div class="btn-group btn-group-sm">

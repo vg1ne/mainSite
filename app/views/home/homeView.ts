@@ -22,6 +22,7 @@ export class HomeView {
     services: ServiceItem[]
     profits: Profit[]
     ourWorks: Work[]
+    //ourWorksTransformed: any[] = []
 
     ngOnInit() {
         this.getSlidesInfo()
@@ -31,7 +32,13 @@ export class HomeView {
         this.homeSlides = this.slidesService.getHomeSlides()
         this.services = this.ourServices.get()
         this.profits = this.whyWeService.get()
-        this.ourWorks= this.ourRecentWorksService.get()
+        this.ourWorks = this.ourRecentWorksService.get()
+
+        //for (let i = 0, l = this.ourWorks.length; i < l; i + 2) {
+        //    if (this.ourWorks[i + 1]) {
+        //        this.ourWorksTransformed.push([this.ourWorks[i], this.ourWorks[i + 1]])
+        //    }
+        //}
     }
     carousel: any = {
         interval : 5000,

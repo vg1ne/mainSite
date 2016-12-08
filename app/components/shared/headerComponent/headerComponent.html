@@ -12,10 +12,11 @@
 
         <div class="collapse navbar-collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
+                <li><a routerLinkActive="active" routerLink="/portfolio"><em>{{'portfolio' | translate}}</em></a></li>
                 <li>
                     <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
                         <a class="submenu-trigger" data-toggle="dropdown" href="#">
-                            <span>{{'ourServices' | translate}}</span>
+                            <span><em>{{'ourServices' | translate}}</em></span>
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -28,7 +29,7 @@
                 <li>
                     <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
                         <a class="submenu-trigger" data-toggle="dropdown" href="#">
-                            <span>{{'About us' | translate}}</span>
+                            <span><em>{{'About us' | translate}}</em></span>
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -41,13 +42,12 @@
                         </ul>
                     </div>
                 </li>
-                <li><a routerLinkActive="active" routerLink="/portfolio">{{'portfolio' | translate}}</a></li>
-                <li>
+                <!--<li>
                     <div class="btn-group btn-group-sm">
                         <button type="button" [ngClass]="{'btn-primary':isEnglish}" (click)="changeLang('en')" class="btn btn-default">En</button>
                         <button type="button" [ngClass]="{'btn-primary':isRussian}" (click)="changeLang('ru')" class="btn btn-default">Ru</button>
                     </div>
-                </li>
+                </li>-->
                 <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs' | translate}}</a></li>
             </ul>
         </div>

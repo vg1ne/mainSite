@@ -41,6 +41,7 @@ p {
 
 .btn {
     font-size: @btn-font-size;
+    padding: @btn-padding;
 }
 
 .vertical-centered {
@@ -168,6 +169,7 @@ p {
     }
 }
 
+
 .border-radius {
     border-radius: 1em;
 }
@@ -202,10 +204,6 @@ p {
 
 .top-header {
     margin-top: 60px;
-}
-
-html body .btn {
-    padding: 0.5em 1em;
 }
 
 .btn.btn-success {
@@ -253,4 +251,27 @@ body .carousel-indicators {
     background: @block-bg-1;
     padding: 2em 0;
     margin: 2em 0;
+}
+
+.service-providing {
+    .glyphicon {
+        font-size: 0.5em;
+    }
+}
+
+
+.btn-inversed{
+    border-width: @btn-border-width;
+    background: @white;
+}
+
+.btn-inversed{
+    &.btn-primary{
+        border-color: @blue2;
+        color: @blue2;
+        &:hover{
+            color: @white;
+            border-color: transparent;
+        }
+    }
 }

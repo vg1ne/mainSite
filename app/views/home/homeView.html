@@ -7,27 +7,6 @@
     </carousel>
 </section>
 
-<!--<section class="our-services-section">
-    <h1 class="text-center">{{'Our services' | translate}}</h1>
-    <p class="text-color-2 text-center hidden-sm hidden-xs">Clients work with us for our user-first digital solutions with
-        a wealth of experience across multiple industries
-    </p>
-    <section class="container hidden-sm hidden-xs">
-        <a [routerLink]="['/ourService', item.id]" *ngFor="let item of services" class="col-md-4 col-sm-6 col-xs-12">
-            <service [sitem]="item"></service>
-        </a>
-    </section>
-    <section class="clearfix visible-sm visible-xs">
-        <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides">
-            <slide *ngFor="let slidez of services; let index=index"
-                   [routerLink]="['/ourService', slidez.id]"
-                   [active]="slidez.active">
-                <service [sitem]="slidez"></service>
-            </slide>
-        </carousel>
-    </section>
-</section>-->
-
 <section class="services">
     <h1 class="text-center">{{'Our services' | translate}}</h1>
     <p class="text-color-2 text-center hidden-sm hidden-xs">Clients work with us for our user-first digital solutions with
@@ -38,6 +17,7 @@
             <li *ngFor="let item of services" class="col-md-4 col-sm-6">
                 <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">
                     {{item.title}}
+                    <i class="glyphicon glyphicon-menu-right"></i>
                 </a>
                 <span *ngIf="!item.providing">
                     {{item.title}}
@@ -45,7 +25,7 @@
             </li>
         </ul>
         <div class="text-center">
-            <a [routerLink]="['/workflow']" class="btn btn-primary workflow border-radius btn-wider">Workflow</a>
+            <a [routerLink]="['/workflow']" class="btn btn-primary workflow border-radius btn-wider btn-inversed">Workflow</a>
         </div>
     </section>
 </section>

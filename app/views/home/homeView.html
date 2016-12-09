@@ -15,7 +15,7 @@
     <section class="container">
         <ul class="row">
             <li *ngFor="let item of services" class="col-md-4 col-sm-6">
-                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">
+                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing" class="service-link">
                     {{item.title}}
                     <i class="glyphicon glyphicon-menu-right"></i>
                 </a>

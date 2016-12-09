@@ -14,7 +14,7 @@
                 <div class="subfooter-menu hidden-xs">
                     <div class="row">
                         <div class="col-sm-4">
-                            <h4>Services</h4>
+                            <h4 class="uppercase"><b>Services</b></h4>
                             <ul>
                                 <li *ngFor="let item of services">
                                     <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">{{item.title}}
@@ -23,20 +23,20 @@
                             </ul>
                         </div>
                         <div class="col-sm-4">
-                            <h4>About Us</h4>
+                            <h4 class="uppercase"><b>About Us</b></h4>
                             <ul>
-                                <li><a routerLinkActive="active" routerLink="/aboutUs">About us</a></li>
-                                <li><a href="#">Workflow</a></li>
-                                <li><a href="#">Privacy police</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a routerLinkActive="active" routerLink="/experience">Experience</a></li>
+                                <li><a routerLinkActive="active" routerLink="/workflow">Workflow</a></li>
+                                <li><a routerLinkActive="active" routerLink="/privacyPolicy">Privacy police</a></li>
+                                <li><a routerLinkActive="active" routerLink="/termsAndConditions">Terms & Conditions</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4">
-                            <h4>Support</h4>
+                            <h4 class="uppercase"><b>Support</b></h4>
                             <ul>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">E-mail</a></li>
+                                <li><a routerLinkActive="active" routerLink="/faq">FAQ</a></li>
+                                <li><a routerLinkActive="active" routerLink="/contactUs">Contact Us</a></li>
+                                <li><a routerLinkActive="active" routerLink="/email">E-mail</a></li>
                             </ul>
                         </div>
                     </div>

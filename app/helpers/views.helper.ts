@@ -7,4 +7,9 @@ import { OurWorkView} from "./../views/ourWork/ourWorkView"
 import { ExperienceView } from "./../views/aboutUs/experience/experienceView"
 import { WorkflowView } from "./../views/aboutUs/workflow/workflowView"
 
-export const views = [HomeView, PortfolioView, OurServiceView, ContactUsView, OurWorkView, OurServicesView, ExperienceView, WorkflowView]
+import { EmailView } from "./../views/email/emailView"
+import { FAQView } from "./../views/FAQ/FAQView"
+import { PrivacyPolicyView } from "./../views/privacyPolicy/privacyPolicyView"
+import { TermsAndConditionsView } from "./../views/termsAndConditions/termsAndConditionsView"
+
+export const views = [HomeView, PortfolioView, OurServiceView, ContactUsView, OurWorkView, OurServicesView, ExperienceView, WorkflowView, EmailView, FAQView, PrivacyPolicyView, TermsAndConditionsView]

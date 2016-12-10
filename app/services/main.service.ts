@@ -1,4 +1,5 @@
 ﻿import {Injectable} from '@angular/core';
+import {appData} from "../mocks/appMock";
 
 @Injectable()
 export class MainService {
@@ -19,5 +20,9 @@ export class MainService {
 
     get possibleLanguages(){
         return this._languages;
+    }
+
+    get technologies(){
+        return appData.technologies;
     }
 }

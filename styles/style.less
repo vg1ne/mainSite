@@ -169,7 +169,6 @@ p {
     }
 }
 
-
 .border-radius {
     border-radius: 1em;
 }
@@ -260,7 +259,6 @@ body .carousel-indicators {
     }
 }
 
-
 .btn-inversed{
     border-width: @btn-border-width;
     background: @white;
@@ -329,12 +327,21 @@ body .carousel-indicators {
         list-style: none;
         display: inline-block;
         color: @gray;
+        margin-bottom: 1em;
         span{
             color: @black;
             display: inline-block;
             border: 1px solid @border-color-1;
             padding: 5px 30px;
             border-radius: 10px;
+        }
+    }
+    &.items-margined{
+        li{
+            margin: 0 0.5em;
+        }
+        p{
+            margin-bottom: 10px;
         }
     }
 }
@@ -400,5 +407,55 @@ body .carousel-indicators {
     }
     &.mobile-icon{
         background-image: url("../styles/images/icon-mobile.png");
+    }
+}
+
+.full-width{
+    width: 100%;
+}
+
+//styles for line on both sides of text start
+.lines-both-side {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    &:before, &:after{
+        position: absolute;
+        top: 51%;
+        overflow: hidden;
+        width: 49%;
+        height: 1px;
+        content: '\a0';
+        background-color: @gray;
+    }
+}
+.lines-both-side:before {
+    margin-left: -49%;
+    text-align: right;
+}
+//styles for line on both sides of text end
+.list-margined{
+    margin: 15px 0;
+}
+
+.list-with-borders{
+    .item-bordered{
+        border-right: 1px solid @gray2;
+        border-top: 1px solid @gray2;
+
+        &:nth-child(3n) {
+            border-right: 0;
+        }
+        &:nth-of-type(-n+3){
+            border-top: 0;
+        }
+    }
+    .desc{
+        height: 2.8em;
+        overflow: hidden;
+    }
+    .web-dev{
+        margin-top: 1.5em;
     }
 }

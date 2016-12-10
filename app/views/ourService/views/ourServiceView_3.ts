@@ -1,4 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, Inject} from '@angular/core';
+import {MainService} from "../../../services/main.service"
 
 @Component({
     selector: 'service-3',
@@ -6,6 +7,11 @@ import {Component, Input} from '@angular/core';
 })
 
 export class OurServiceView_3 {
+    constructor(@Inject(MainService) private mainService){}
     @Input('service') service
+
+    technologies = this.mainService.technologies
+
+
 }
 

@@ -40,6 +40,6 @@ gulp.task("webpack:webpack-dev-server", function (callback) {
     });
 });
 
-gulp.task('default', function () {
+gulp.task('default', ["cleanCompiling"], function () {
     gulp.start('webpack:webpack-dev-server');
 });

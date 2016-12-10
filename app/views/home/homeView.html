@@ -31,10 +31,14 @@
 </section>
 
 <section class="our-works-section">
-    <div>
+    <div class="container">
         <h1 class="text-center">Our Recent Work</h1>
-        <p class="text-center hidden-xs hidden-sm">Plastic design & develop digital experiences that put people first.</p>
-        <div class="container">
+        <p class="text-center hidden-xs hidden-sm text-muted">
+            We appreciate our customers. In any work it is important to remain humans, as it is easier to destroy than
+            to create. And we want to create: draw, write, develop, advise, implement, build not only projects,
+            but also lasting friendly relations with everyone whom meet on our way.
+        </p>
+        <div class="row padded-bottom">
             <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides" class="no-rounds">
                 <slide *ngFor="let slidez of ourWorksTransformed; let index=index" class="row"
                        [active]="slidez.active">
@@ -44,7 +48,7 @@
             </carousel>
         </div>
         <p class="text-center">
-            <a routerLink="/portfolio" class="text-color-6">SEE ALL WORKS</a>
+            <a routerLink="/portfolio" class="btn btn-primary border-radius btn-wider btn-inversed">Show More</a>
         </p>
     </div>
 </section>

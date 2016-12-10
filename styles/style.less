@@ -308,12 +308,81 @@ body .carousel-indicators {
     }
 
     .carousel-control {
-        background-color: none;
+        background-color: transparent;
         cursor: pointer;
 
         /*.icon-prev,
         .icon-next {
             font-size: 10em;
         }*/
+    }
+}
+
+.padded-bottom{
+    padding-bottom: 2em;
+}
+
+.workflow-list{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+        display: inline-block;
+        color: @gray;
+        span{
+            color: @black;
+            display: inline-block;
+            border: 1px solid @border-color-1;
+            padding: 5px 15px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.blog-categories-bg{
+    background: url("../styles/images/categories-bg.jpg") no-repeat top left;
+    background-size: cover;
+    padding: 2em 0;
+
+    .categories-list{
+        padding: 0;
+        margin: 0;
+        display: block;
+        text-align: center;
+        li{
+            display: inline-block;
+            margin: 0 2rem;
+            list-style: none;
+            color: @white;
+            .cat-logo{
+                display: block;
+                width: 117px;
+                height: 117px;
+                background-size: cover;
+                &.category-1{
+                    background-image: url("../styles/images/blog_cat1.png")
+                }
+                &.category-2{
+                    background-image: url("../styles/images/blog_cat2.png")
+                }
+                &.category-3{
+                    background-image: url("../styles/images/blog_cat3.png")
+                }
+                &.category-4{
+                    background-image: url("../styles/images/blog_cat4.png")
+                }
+                &.category-5{
+                    background-image: url("../styles/images/blog_cat5.png")
+                }
+                &.category-6{
+                    background-image: url("../styles/images/blog_cat6.png")
+                }
+            }
+            .category-name{
+                display: block;
+                text-align: center;
+                margin-top: 1em;
+            }
+        }
     }
 }

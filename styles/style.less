@@ -310,21 +310,21 @@ body .carousel-indicators {
     .carousel-control {
         background-color: transparent;
         cursor: pointer;
-
-        /*.icon-prev,
-        .icon-next {
-            font-size: 10em;
-        }*/
     }
 }
 
 .padded-bottom{
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
+}
+
+.top-bottom-padded{
+    padding: 4rem 0;
 }
 
 .workflow-list{
     padding: 0;
     margin: 0;
+    text-align: center;
     li{
         list-style: none;
         display: inline-block;
@@ -333,7 +333,7 @@ body .carousel-indicators {
             color: @black;
             display: inline-block;
             border: 1px solid @border-color-1;
-            padding: 5px 15px;
+            padding: 5px 30px;
             border-radius: 10px;
         }
     }
@@ -384,5 +384,21 @@ body .carousel-indicators {
                 margin-top: 1em;
             }
         }
+    }
+}
+
+.mobile-dev-icon{
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    &.responsive-icon{
+        background-image: url("../styles/images/icon-computer.png");
+    }
+    &.time-icon{
+        background-image: url("../styles/images/icon-time.png");
+    }
+    &.mobile-icon{
+        background-image: url("../styles/images/icon-mobile.png");
     }
 }

@@ -12,7 +12,7 @@
 
         <div class="collapse navbar-collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
-                <li><a routerLinkActive="active" routerLink="/portfolio"><em>{{'portfolio' | translate}}</em></a></li>
+                <li><a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" routerLink="/portfolio"><em>{{'portfolio' | translate}}</em></a></li>
                 <li>
                     <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
                         <a class="submenu-trigger" data-toggle="dropdown" href="#">
@@ -21,23 +21,31 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li *ngFor="let item of services">
-                                <a [routerLink]="['/ourService', item.id]" *ngIf="item.providing">{{item.title}}</a>
+                                <a routerLinkActive="active"
+                                   data-toggle="collapse"
+                                   data-target="#bs-navbar"
+                                   [routerLink]="['/ourService', item.id]"
+                                   *ngIf="item.providing">
+                                    {{item.title}}
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li>
                     <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
-                        <a class="submenu-trigger" data-toggle="dropdown" href="#">
+                        <a class="submenu-trigger"
+                           href="#"
+                           routerLinkActive="active">
                             <span><em>{{'About us' | translate}}</em></span>
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a [routerLink]="['/experience']">{{'experience' | translate}}</a>
+                                <a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" [routerLink]="['/experience']">{{'experience' | translate}}</a>
                             </li>
                             <li>
-                                <a [routerLink]="['/workflow']">{{'workflow' | translate}}</a>
+                                <a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active"[routerLink]="['/workflow']">{{'workflow' | translate}}</a>
                             </li>
                         </ul>
                     </div>

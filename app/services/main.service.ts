@@ -19,10 +19,14 @@ export class MainService {
     }
 
     get possibleLanguages(){
-        return this._languages;
+        return this._languages
     }
 
     get technologies(){
-        return appData.technologies;
+        return appData.technologies
+    }
+
+    get faq() {
+        return appData.questions
     }
 }

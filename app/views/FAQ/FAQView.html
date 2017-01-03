@@ -1,8 +1,24 @@
-﻿<h1>faqView</h1>
-<p>
-    Sapien elit in malesuada semper mi, id sollicitudin urna fermentum.
-</p>
-<hr />
-<p>
-    Sit amet, consectetur.
-</p>
+﻿<section class="faq-questions">
+    <ul class="faq-list">
+        <li *ngFor="let item of faq;" class="faq-item">
+            <h3>
+                <a [attr.href]="'#collapsible'+item.id" data-toggle="collapse">
+                    {{item.question}}
+                    <span class="glyphicon glyphicon-triangle-bottom pull-right"></span>
+                </a>
+            </h3>
+            <div [attr.id]="'collapsible'+item.id" class="collapse">
+                <p>
+                    {{item.answer}}
+                </p>
+            </div>
+        </li>
+    </ul>
+</section>
+<div class="margined text-center">
+    <p>
+        <a class="btn-wider btn btn-success border-radius btn-filled btn-success-inverse btn-big"
+           [routerLink]="['/contactUs']">Contact Us</a>
+    </p>
+    <h5 class="text-uppercase text-muted">read more about us</h5>
+</div>

@@ -1,3 +1,4 @@
+/// <reference path="../node_modules/ng2-select/ng2-select.d.ts" />
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './components/app.component';
@@ -17,9 +18,10 @@ import {MainService} from "./services/main.service"
 
 import {TranslateModule} from 'ng2-translate';
 import {CarouselModule} from 'ng2-bootstrap/ng2-bootstrap';
+import { SelectModule } from "ng2-select/ng2-select";
 
 @NgModule({
-    imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot()],
+    imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot(), SelectModule],
     declarations: [AppComponent, views, components, OrderByPipe],
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {

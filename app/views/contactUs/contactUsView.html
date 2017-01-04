@@ -1,5 +1,5 @@
 ﻿<div class="container top-header">
-    <div class="row">
+    <div class="row content-margined">
         <div class="col-md-6">
             <h3><b>Tell us about your project and let`s get started!</b></h3>
             <br />
@@ -18,12 +18,18 @@
             <form name="contact-form">
                 <p>
                     <label class="text-uppercase">subject</label>
-                    <input type="text" value="" placeholder="UI/UX Design, Web development..." class="form-control" />
+                    <span *ngIf="services">
+                        <ng-select [allowClear]="false"
+                                   [items]="services"
+                                   (selected)="selected($event)"
+                                   placeholder="UI/UX Design, Web development...">
+                        </ng-select>
+                    </span>
                 </p>
 
                 <p>
                     <label class="text-uppercase">your name</label>
-                    <input type="text" value="" placeholder="First name, Last name" class="form-control" />
+                    <input type="text" required placeholder="First name, Last name" class="form-control" />
                 </p>
 
                 <p>
@@ -33,10 +39,13 @@
 
                 <p>
                     <label class="text-uppercase">your e-mail</label>
-                    <input type="text" value="" placeholder="name@mail.com" class="form-control" />
+                    <input type="email" placeholder="name@mail.com" class="form-control" />
                 </p>
 
                 <p class="clearfix">
+                    <span class="btn btn-default btn-file">
+                        Browse <input type="file">
+                    </span>
                     <button type="submit" class="text-uppercase btn btn-primary btn-inversed pull-right">send a message</button>
                 </p>
             </form>

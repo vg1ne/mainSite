@@ -9,7 +9,7 @@ import { WorkflowView } from "./../views/aboutUs/workflow/workflowView"
 
 import { EmailView } from "./../views/email/emailView"
 import { FAQView } from "./../views/FAQ/FAQView"
-import { PrivacyPolicyView } from "./../views/privacyPolicy/privacyPolicyView"
-import { TermsAndConditionsView } from "./../views/termsAndConditions/termsAndConditionsView"
+import { PrivacyPolicyView } from "../views/aboutUs/privacyPolicy/privacyPolicyView"
+import { TermsAndConditionsView } from "../views/aboutUs/termsAndConditions/termsAndConditionsView"
 
 export const views = [HomeView, PortfolioView, OurServiceView, ContactUsView, OurWorkView, OurServicesView, ExperienceView, WorkflowView, EmailView, FAQView, PrivacyPolicyView, TermsAndConditionsView]

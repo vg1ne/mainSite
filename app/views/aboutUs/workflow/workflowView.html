@@ -1,1 +1,98 @@
-﻿<h1>Workflow</h1>
+﻿<div class="subheader-titled">
+    <h1 class="text-center">Workflow</h1>
+    <div>
+        <span class="border-bottom"></span>
+    </div>
+</div>
+
+<section class="content container">
+    <div>
+        <div class="text-center">
+            <span class="idea-icon"></span>
+        </div>
+        <h3 class="text-center"><i>You come with an idea</i></h3>
+        <p class="text-center">
+            You have an idea about a product or service and you want to put it into life. On this stage we help you to create a concept of your product, understand its strengths and weaknesses, ways of monetization and further prospects. We also create a road map, define the scope of work and time frame.
+        </p>
+    </div>
+    <div>
+        <div class="text-center">
+            <span class="user-experience-icon"></span>
+        </div>
+        <h3 class="text-center"><i>User Experience</i></h3>
+        <p class="text-center">
+            To be perfectly sure how the app will look and function, we create its prototype based on the decided UX design. Everybody benefits from prototyping: UI designers can immediately get the overall feeling of the final product, developers study the functionality without diving into numerous blueprints, the project manager can set the acceptance criteria and you always know what to expect at the end of each iteration.
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="../../../../styles/images/layout-state-1.png" alt="">
+        </div>
+        <div class="col-sm-6">
+            <img src="../../../../styles/images/layout-state-2.png" alt="">
+        </div>
+    </div>
+    <div>
+        <div class="text-center">
+            <span class="development-icon"></span>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 right-border">
+                <div>
+                    <h4>User Interface Design</h4>
+                    <p>
+                        After we have agreed on the prototype and the functionality we want to implement, we design the look and feel of your product. If it’s a web solution, it will be responsive to fit all kinds of screens; if it’s a mobile app, it will be designed to make use of modern interaction features like swipes, taps and Force Touch. We practice Human-Centered Design while delivering a thoughtful design strategy from the concept to completion to be sure your customers will enjoy using your product.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Development</h4>
+                <p>At this stage we create a fully functional version of your product according to the previously agreed mockups, user stories and prototypes. As a full stack development team, we deliver both web solutions and mobile applications to enrich the ways your customers can take advantage of your value proposition.
+                    We use the BDD (Behavior-driven development) and TDD (Test-driven development) approach during the
+                    development process.</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="../../../../styles/images/browser.png" alt="">
+            </div>
+            <div class="col-sm-7">
+                <div>
+                    <h4><i>Launch</i></h4>
+                    <p>Just like a well designed building needs a good foundation, so does your application needs a solid deployment strategy.
+                    </p>
+                </div>
+                <div>
+                    <h4><i>Maintenance</i></h4>
+                    <p>After the application has been released to the public, it needs to be maintained. Technologies get outdated, hardware requires troubleshooting, and you solution must always be ready to meet users’ changing needs and face corner cases like huge numbers of users accessing it at the same time or new security threats. We will provide such maintenance and help you make your product even better with adding new functionality, while you can remain focused on your business goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</section>
+
+<section class="bg-color-1 top-bottom-padded">
+    <div class="container">
+        <h1 class="text-center">Technologies we use to build your product</h1>
+        <div *ngFor="let technology of technologies" class="list-margined">
+            <p class="text-muted text-uppercase text-center lines-both-side">{{technology.name}}</p>
+            <ul class="workflow-list items-margined">
+                <li *ngFor="let item of technology.items">
+                    <span>{{item}}</span>&nbsp;
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<div class="container top-bottom-padded ">
+    <div class="text-center">
+        <a class="btn-wider btn btn-success border-radius btn-filled btn-success-inverse btn-big"
+           [routerLink]="['/contactUs']">Contact Us</a>
+    </div>
+</div>

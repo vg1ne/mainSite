@@ -7,7 +7,7 @@ require("./../../styles/mediaQueries.less")
 
 @Component({
     selector: 'my-app',
-    template:`<main-header></main-header><section class="top-header"><router-outlet></router-outlet></section><main-footer></main-footer>`
+    template:`<main-header></main-header><section class="top-header"><router-outlet></router-outlet></section><sub-footer></sub-footer><main-footer></main-footer>`
 })
 
 export class AppComponent {

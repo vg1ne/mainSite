@@ -4,6 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './components/app.component';
 import {routing} from "./routing";
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
+import { FormsModule }   from '@angular/forms';
+import { ReCaptchaModule } from 'angular2-recaptcha';
 
 import {components} from "./helpers/components.helper"
 import {views} from "./helpers/views.helper"
@@ -21,7 +23,7 @@ import {CarouselModule} from 'ng2-bootstrap/ng2-bootstrap';
 import { SelectModule } from "ng2-select/ng2-select";
 
 @NgModule({
-    imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot(), SelectModule],
+    imports: [BrowserModule, CarouselModule, routing, TranslateModule.forRoot(), SelectModule, FormsModule, ReCaptchaModule],
     declarations: [AppComponent, views, components, OrderByPipe],
     bootstrap: [AppComponent],
     providers: [SlidesService, OurRecentWorksService, OurServicesService, WhyWeService, {

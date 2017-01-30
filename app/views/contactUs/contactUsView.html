@@ -32,16 +32,19 @@
                     <input type="text" required placeholder="First name, Last name" class="form-control" />
                 </p>
 
-                <p>
+                <p class="with-helper">
                     <label class="text-uppercase">your message</label>
-                    <textarea name="message" placeholder="Tell Us About Your Project" class="form-control"></textarea>
+                    <textarea [(ngModel)]='message' name="message" placeholder="Tell Us About Your Project" class="form-control" [maxlength]="textareaMaxSymbols"></textarea>
+                    <span class="helper text-muted" *ngIf="!isClearTextArea">{{symbolsLeft}} symbols left</span>
                 </p>
 
                 <p>
                     <label class="text-uppercase">your e-mail</label>
                     <input type="email" placeholder="name@mail.com" class="form-control" />
                 </p>
-
+                <p>
+                    <re-captcha (captchaResponse)="handleCorrectCaptcha($event)" site_key="6LcHlBMUAAAAAAutqzkmXwRQaGP6l8owgxg-A5dy"></re-captcha>
+                </p>
                 <p class="clearfix">
                     <span class="btn btn-default btn-file">
                         Browse <input type="file">

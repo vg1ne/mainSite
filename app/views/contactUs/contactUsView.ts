@@ -24,7 +24,15 @@ export class ContactUsView {
     selected(item) {
         this.currentService = item
     }
+    get symbolsLeft(){
+        return this.textareaMaxSymbols -this.message.length
+    }
+    get isClearTextArea(){
+        return this.message.length === 0
+    }
 
     private services: any[]
     private currentService: ServiceItem = null
+    private message: string = ''
+    private textareaMaxSymbols: number = 3000
 }

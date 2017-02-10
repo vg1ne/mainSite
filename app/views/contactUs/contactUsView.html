@@ -15,7 +15,7 @@
         </div>
 
         <div class="col-md-6">
-            <form name="contact-form">
+            <form name="contact-form" [formGroup]="complexForm" (ngSubmit)="submitForm(complexForm.value)">
                 <p>
                     <label class="text-uppercase">subject</label>
                     <span *ngIf="services">
@@ -27,29 +27,48 @@
                     </span>
                 </p>
 
-                <p>
+                <div  class="form-row" [ngClass]="{'has-error':!complexForm.controls['name'].valid && complexForm.controls['name'].touched}">
                     <label class="text-uppercase">your name</label>
-                    <input type="text" required placeholder="First name, Last name" class="form-control" />
-                </p>
+                    <input type="text"
+                           [formControl]="complexForm.controls['name']"
+                           name="name"
+                           required
+                           placeholder="First name, Last name"
+                           class="form-control" />
+                    <div *ngIf="complexForm.controls['name'].hasError('required') && complexForm.controls['name'].touched" class="alert alert-danger">Please, specify your name.</div>
+                    <div *ngIf="complexForm.controls['name'].hasError('maxlength') && complexForm.controls['name'].touched" class="alert alert-danger">Please, fill not more then 50 symbols.</div>
+                </div>
 
-                <p class="with-helper">
+                <div class="with-helper form-row" [ngClass]="{'has-error':!complexForm.controls['message'].valid && complexForm.controls['message'].touched}">
                     <label class="text-uppercase">your message</label>
-                    <textarea [(ngModel)]='message' name="message" placeholder="Tell Us About Your Project" class="form-control" [maxlength]="textareaMaxSymbols"></textarea>
-                    <span class="helper text-muted" *ngIf="!isClearTextArea">{{symbolsLeft}} symbols left</span>
-                </p>
+                    <textarea [formControl]="complexForm.controls['message']"
+                              name="message"
+                              placeholder="Tell Us About Your Project"
+                              class="form-control">
+                    </textarea>
+                    <!--<span class="helper text-muted" *ngIf="!isClearTextArea">{{symbolsLeft}} symbols left</span>-->
+                    <div *ngIf="complexForm.controls['message'].hasError('required') && complexForm.controls['message'].touched" class="alert alert-danger">Please, specify some description about your project.</div>
+                    <div *ngIf="complexForm.controls['message'].hasError('minlength') && complexForm.controls['message'].touched" class="alert alert-danger">Too short as for description.</div>
+                    <div *ngIf="complexForm.controls['message'].hasError('maxlength') && complexForm.controls['message'].touched" class="alert alert-danger">Please, specify shorter description. Max length 100 symbols.</div>
+                </div>
 
-                <p>
+                <div class="form-row" [ngClass]="{'has-error':!complexForm.controls['email'].valid && complexForm.controls['email'].touched}">
                     <label class="text-uppercase">your e-mail</label>
-                    <input type="email" placeholder="name@mail.com" class="form-control" />
-                </p>
-                <p>
-                    <re-captcha (captchaResponse)="handleCorrectCaptcha($event)" site_key="6LcHlBMUAAAAAAutqzkmXwRQaGP6l8owgxg-A5dy"></re-captcha>
-                </p>
+                    <input type="email"
+                           name="email"
+                           [formControl]="complexForm.controls['email']"
+                           placeholder="name@mail.com"
+                           class="form-control" />
+                    <div *ngIf="complexForm.controls['email'].invalid && complexForm.controls['email'].touched" class="alert alert-danger">Please, specify your email in valid format.</div>
+                </div>
+                <!--<p>-->
+                    <!--<re-captcha (captchaResponse)="handleCorrectCaptcha($event)" site_key="6LcHlBMUAAAAAAutqzkmXwRQaGP6l8owgxg-A5dy"></re-captcha>-->
+                <!--</p>-->
                 <p class="clearfix">
                     <span class="btn btn-default btn-file">
-                        Browse <input type="file">
+                        Browse <input type="file" name="file">
                     </span>
-                    <button type="submit" class="text-uppercase btn btn-primary btn-inversed pull-right">send a message</button>
+                    <button type="submit" [disabled]="!complexForm.valid" class="text-uppercase btn btn-primary btn-inversed pull-right">send a message</button>
                 </p>
             </form>
         </div>

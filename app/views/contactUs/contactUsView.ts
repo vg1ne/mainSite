@@ -1,14 +1,21 @@
 import { Component } from '@angular/core';
 import { OurServicesService } from "../../services/ourServices.service";
-import { ServiceItem, ServiceItemExtended } from '../../models/serviceItemModel';
-
-
+import { ServiceItem } from '../../models/serviceItemModel';
+import { FormBuilder, FormGroup, Validators,FormControl  } from '@angular/forms';
 
 @Component({
     template: require("./contactUsView.html")
 })
 export class ContactUsView {
-    constructor(private ourServices: OurServicesService) { }
+    complexForm : FormGroup;
+    constructor(private ourServices: OurServicesService,
+                fb: FormBuilder) {
+        this.complexForm = fb.group({
+            'message' : [null, Validators.compose([Validators.required, Validators.minLength(5), Validators.maxLength(1000)])],
+            'name': [null, Validators.compose([Validators.required, Validators.maxLength(50)])],
+            'email': new FormControl('', [Validators.compose([Validators.required, EmailValidator.isValidMailFormat])])
+        })
+    }
 
     ngOnInit() {
         let services = this.ourServices.get()
@@ -24,15 +31,24 @@ export class ContactUsView {
     selected(item) {
         this.currentService = item
     }
-    get symbolsLeft(){
-        return this.textareaMaxSymbols -this.message.length
-    }
-    get isClearTextArea(){
-        return this.message.length === 0
+    submitForm(value: any):void{
+
     }
 
     private services: any[]
     private currentService: ServiceItem = null
-    private message: string = ''
-    private textareaMaxSymbols: number = 3000
+}
+
+export class EmailValidator {
+
+    static isValidMailFormat(control: FormControl){
+        let EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+        if (control.value != "" && (control.value.length <= 5 || !EMAIL_REGEXP.test(control.value))) {
+            return { "Please provide a valid email": true };
+        }
+
+        return null;
+    }
+
 }

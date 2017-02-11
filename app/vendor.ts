@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import 'rxjs';
 import 'zone.js/dist/zone';
-
+import 'es6-shim';
 import '@angular/common';
 import '@angular/compiler';
 import '@angular/core';

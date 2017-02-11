@@ -50,7 +50,7 @@
         desc: 'Vel sapien elit in malesuada semper mi, id sollicitudin.',
         imgUrl: '../../../../styles/images/service6.png',
         bigImgUrl: '../../../../styles/images/service1_b.jpg',
-        providing: true,
+        providing: false,
         showingPriority: 6
     },
     {

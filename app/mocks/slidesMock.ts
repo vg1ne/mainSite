@@ -44,14 +44,14 @@
         text: 'at the common knowledge',
         desc: 'A brand is a candy paper wrap - the exterior of your business. It is the First thing your potential cusomer visualy sees.The significal of branding can`t be overemphasized: we won`t buy a car which we don`t line and we don`t care how many hourses there under the hood.'
     },
-    {
-        id: 6,
-        active: false,
-        imgUrl: '../../../styles/images/img_flower.jpg',
-        title: 'Workflow',
-        heading: 'A Fresh view',
-        text: 'at the common knowledge',
-        desc: 'A brand is a candy paper wrap - the exterior of your business. It is the First thing your potential cusomer visualy sees.The significal of branding can`t be overemphasized: we won`t buy a car which we don`t line and we don`t care how many hourses there under the hood.'
-    }
+    // {
+    //     id: 6,
+    //     active: false,
+    //     imgUrl: '../../../styles/images/img_flower.jpg',
+    //     title: 'Workflow',
+    //     heading: 'A Fresh view',
+    //     text: 'at the common knowledge',
+    //     desc: 'A brand is a candy paper wrap - the exterior of your business. It is the First thing your potential cusomer visualy sees.The significal of branding can`t be overemphasized: we won`t buy a car which we don`t line and we don`t care how many hourses there under the hood.'
+    // }
     ]
 }

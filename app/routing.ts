@@ -1,7 +1,7 @@
 import {Routes, RouterModule} from '@angular/router'
 import {PortfolioView} from "./views/portfolio/PortfolioView"
 import {HomeView} from "./views/home/homeView"
-import {ContactUsView} from "./views/contactUs/contactUsView"
+import {ContactUsView} from "./views/contactUs2/contactUsView"
 import {OurServiceView} from "./views/ourService/ourServiceView"
 import { OurWorkView } from "./views/ourWork/ourWorkView"
 import { ExperienceView } from "./views/aboutUs/experience/experienceView"

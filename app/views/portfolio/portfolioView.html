@@ -7,7 +7,7 @@
 
 <section class="portfolio-items container">
     <div class="row">
-        <work *ngFor="let work of works" [witem]="work" class="col-sm-4 portfolio-item" [routerLink]="['/portfolio', work.id]"></work>
+        <work *ngFor="let work of works" [witem]="work" class="col-sm-6 col-md-4 portfolio-item" [routerLink]="['/portfolio', work.id]"></work>
     </div>
 </section>
 

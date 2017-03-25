@@ -1,5 +1,6 @@
 import { HomeView } from "./../views/home/homeView"
-import { PortfolioView } from "./../views/portfolio/PortfolioView"
+import { PortfolioView } from "./../views/portfolio/portfolioView"
+import { PortfolioItemView } from "./../views/portfolioItem/portfolioItemView"
 import { OurServicesView } from "./../views/ourServices/ourServicesView"
 import { ContactUsView } from "./../views/contactUs2/contactUsView"
 import { OurServiceView } from "./../views/ourService/ourServiceView"
@@ -12,4 +13,4 @@ import { FAQView } from "./../views/FAQ/FAQView"
 import { PrivacyPolicyView } from "../views/aboutUs/privacyPolicy/privacyPolicyView"
 import { TermsAndConditionsView } from "../views/aboutUs/termsAndConditions/termsAndConditionsView"
 
-export const views = [HomeView, PortfolioView, OurServiceView, ContactUsView, OurWorkView, OurServicesView, ExperienceView, WorkflowView, EmailView, FAQView, PrivacyPolicyView, TermsAndConditionsView]
+export const views = [HomeView, PortfolioView, OurServiceView, ContactUsView, OurWorkView, OurServicesView, ExperienceView, WorkflowView, EmailView, FAQView, PrivacyPolicyView, TermsAndConditionsView, PortfolioItemView]

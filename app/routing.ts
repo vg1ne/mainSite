@@ -1,5 +1,6 @@
 import {Routes, RouterModule} from '@angular/router'
-import {PortfolioView} from "./views/portfolio/PortfolioView"
+import {PortfolioView} from "./views/portfolio/portfolioView"
+import {PortfolioItemView} from "./views/portfolioItem/portfolioItemView"
 import {HomeView} from "./views/home/homeView"
 import {ContactUsView} from "./views/contactUs2/contactUsView"
 import {OurServiceView} from "./views/ourService/ourServiceView"
@@ -15,6 +16,7 @@ import { TermsAndConditionsView } from "./views/aboutUs/termsAndConditions/terms
 export const routes: Routes = [
     {path: '', component: HomeView},
     {path: 'portfolio', component: PortfolioView},
+    {path: 'portfolio/:id', component: PortfolioItemView},
     {path: 'contactUs', component: ContactUsView},
     {path: 'ourService/:id', component: OurServiceView},
     {path: 'ourWork/:id', component: OurWorkView},

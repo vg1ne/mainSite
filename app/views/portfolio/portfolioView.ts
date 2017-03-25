@@ -1,5 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {OurRecentWorksService} from "../../services/ourRecentWorks.service";
+import {Work} from "../../components/workComponent/workModel";
+
 @Component({
     template: require("./portfolioView.html")
 })
-export class PortfolioView { }
+export class PortfolioView implements OnInit{
+    constructor(private ourWorksService: OurRecentWorksService){
+
+    }
+    ngOnInit(){
+        this.works = this.ourWorksService.get()
+        let a = 1;
+    }
+    private works: Work[]
+}

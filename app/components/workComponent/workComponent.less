@@ -8,7 +8,9 @@
     overflow: hidden;
     line-height: @card-font-size;
 }
-
+.portfolio-title-text{
+  display: none;
+}
 .work-container {
     background: @gray2;
     position: relative;
@@ -26,6 +28,9 @@
 }
 
 .portfolio-item{
+    .portfolio-title-text{
+      display: block;
+    }
     .work-item-wrapper{
         margin: 15px 0;
         .vertical-centered.text-center{

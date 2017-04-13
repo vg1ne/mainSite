@@ -1,14 +1,14 @@
 <div class="slide" [ngStyle]="{'background-image': 'url(' + item.imgUrl + ')'}">
     <section class="slide-info">
         <div class="text-center-sm-xs">
-            <span class="slide-mark border-radius">{{item.title | translate}}</span>
+            <span class="slide-mark">{{item.title | translate}}</span>
         </div>
         <h2>
-            <span >{{item.heading | translate}}</span>
+            <span >{{item.heading | translate}}</span> <br>
             <span>{{item.text | translate}}</span>
         </h2>
         <p class="slide-description hidden-xs text-color-1">{{item.desc | translate}}</p>
-        <div class="show-more-section text-center">
+        <div class="show-more-section text-left">
             <a class="btn btn-default border-radius text-uppercase" routerLink="/ourService/{{item.id}}">{{'Show More' | translate}}</a>
         </div>
     </section>

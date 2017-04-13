@@ -14,7 +14,7 @@
         imgUrl: '../../../styles/images/slide-2.jpg',
         title: 'UI/UX design',
         heading: 'Functional',
-        text: 'decisions for you business.',
+        text: 'decisions for you business',
         desc: 'We explore your market, occupation and analyze your requests. We always look for the most effective solutions in terms of investments and of course never forget about the possibility of innovations which can make your webpage maximum effective and profitable.'
     },
     {
@@ -41,7 +41,7 @@
         imgUrl: '../../../styles/images/slide-5.jpg',
         title: 'Content Creation',
         heading: 'Silence is not gold ',
-        text: 'the network does not forgive silence.',
+        text: 'the network does not forgive silence',
         desc: 'If you are not online, you basically do not exist. What first appears in your mind when you hear a combination of the words "business and the Internet"? Correct, the website.'
     }]
 }

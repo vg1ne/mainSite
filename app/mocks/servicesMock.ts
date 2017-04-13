@@ -44,7 +44,7 @@
         providing: true,
         showingPriority: 12
     },
-    {
+    /*{
         id: 6,
         title: 'Workflow',
         desc: 'Vel sapien elit in malesuada semper mi, id sollicitudin.',
@@ -52,7 +52,7 @@
         bigImgUrl: '../../../../styles/images/service1_b.jpg',
         providing: false,
         showingPriority: 6
-    },
+    },*/
     {
         id: 7,
         title: 'logo design',

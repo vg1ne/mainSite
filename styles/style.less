@@ -263,7 +263,12 @@ body .carousel-indicators {
     background: @block-bg-1;
     padding: 2em 0;
     margin: 2em 0;
-
+    h1{
+        margin-bottom: 30px;
+        &+p{
+            margin-bottom: 30px;
+        }
+    }
     .carousel-inner{
         padding-top: 0;
         & > .item{
@@ -604,4 +609,8 @@ body .carousel-indicators {
     &>a{
         margin: 0.5em;
     }
+}
+
+.services{
+    margin-bottom: 6rem;
 }

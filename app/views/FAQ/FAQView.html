@@ -1,4 +1,11 @@
-﻿<section class="faq-questions">
+﻿<div class="subheader-titled">
+    <h1 class="text-center">F.A.Q.</h1>
+    <div>
+        <span class="border-bottom"></span>
+    </div>
+</div>
+
+<section class="faq-questions">
     <ul class="faq-list">
         <li *ngFor="let item of faq;" class="faq-item">
             <h3>
@@ -20,5 +27,4 @@
         <a class="btn-wider btn btn-success border-radius btn-filled btn-success-inverse btn-big"
            [routerLink]="['/contactUs']">Contact Us</a>
     </p>
-    <h5 class="text-uppercase text-muted">read more about us</h5>
 </div>

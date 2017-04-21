@@ -26,7 +26,9 @@ export const routes: Routes = [
     { path: 'email', component: EmailView },
     { path: 'faq', component: FAQView },
     { path: 'privacyPolicy', component: PrivacyPolicyView },
-    { path: 'termsAndConditions', component: TermsAndConditionsView }
+    { path: 'termsAndConditions', component: TermsAndConditionsView },
+
+    { path: '**', component: HomeView }
 ];
 export const routing = RouterModule.forRoot(routes);
 

@@ -39,7 +39,7 @@
             but also lasting friendly relations with everyone whom meet on our way.
         </p>
         <div class="row padded-bottom">
-            <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides" class="no-rounds hidden-sm hidden-xs">
+            <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides" class="no-rounds hidden-xs">
                 <slide *ngFor="let slidez of ourWorksTransformed; let index=index" class="row"
                        [active]="slidez.active">
                     <work [witem]="slidez[0]" class="col-sm-6"></work>
@@ -47,7 +47,7 @@
                 </slide>
             </carousel>
 
-            <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides" class="no-rounds visible-sm visible-xs">
+            <carousel [interval]="carousel.interval" [noWrap]="carousel.noWrapSlides" class="no-rounds visible-xs">
                 <slide *ngFor="let slidez of ourWorks; let index=index" class="row"
                        [active]="slidez.active">
                     <work [witem]="slidez" class="col-sm-6"></work>

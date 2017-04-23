@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { Slide } from "../../models/slideModel";
 import { ServiceItem} from "../../models/serviceItemModel"
-import { Work} from "../../models/workModel"
 import { Profit} from "../../models/profitModel"
 import { SlidesService } from "../../services/slides.service";
 import { OurServicesService} from "../../services/ourServices.service"

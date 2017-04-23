@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
 @Component({
-  templateUrl: 'app/views/ourServices/ourServicesView.html'
+  template: require('./ourServicesView.html')
 })
 export class OurServicesView { }

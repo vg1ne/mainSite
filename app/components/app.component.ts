@@ -4,6 +4,13 @@ import { MainService } from "./../services/main.service";
 import { Router, NavigationEnd } from '@angular/router';
 require("./../../styles/style.less")
 require("./../../styles/mediaQueries.less")
+import {slides} from "./../mocks/slidesMock"
+
+//preload slider img for removing blinking
+slides.home.forEach((item)=>{
+    let img = new Image()
+    img.src = item.imgUrl
+})
 
 @Component({
     selector: 'my-app',

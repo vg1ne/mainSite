@@ -26,5 +26,9 @@
   "GUI design": "GUI design",
   "editorial services": "editorial services",
   "strategy": "strategy",
-  "presentation": "presentation"
+  "presentation": "presentation",
+
+  "betaPanel":{
+    "text": "This is beta version of the site"
+  }
 }

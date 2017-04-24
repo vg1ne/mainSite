@@ -26,5 +26,8 @@
   "GUI design": "GUI дизайн",
   "editorial services": "услуги редактирования",
   "strategy": "стратегии",
-  "presentation": "презентации"
+  "presentation": "презентации",
+  "betaPanel":{
+    "text": "Это бетта-версия сайта"
+  }
 }

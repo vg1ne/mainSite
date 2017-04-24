@@ -41,9 +41,6 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <!--<li>-->
-                                <!--<a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" [routerLink]="['/experience']">{{'experience' | translate}}</a>-->
-                            <!--</li>-->
                             <li>
                                 <a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active"[routerLink]="['/workflow']">{{'workflow' | translate}}</a>
                             </li>
@@ -52,12 +49,12 @@
                         </ul>
                     </div>
                 </li>
-                <!--<li>
+                <li>
                     <div class="btn-group btn-group-sm">
                         <button type="button" [ngClass]="{'btn-primary':isEnglish}" (click)="changeLang('en')" class="btn btn-default">En</button>
                         <button type="button" [ngClass]="{'btn-primary':isRussian}" (click)="changeLang('ru')" class="btn btn-default">Ru</button>
                     </div>
-                </li>-->
+                </li>
                 <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs' | translate}}</a></li>
             </ul>
         </div>

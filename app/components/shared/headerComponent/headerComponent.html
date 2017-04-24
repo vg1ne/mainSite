@@ -49,12 +49,35 @@
                         </ul>
                     </div>
                 </li>
-                <li>
-                    <div class="btn-group btn-group-sm">
-                        <button type="button" [ngClass]="{'btn-primary':isEnglish}" (click)="changeLang('en')" class="btn btn-default">En</button>
-                        <button type="button" [ngClass]="{'btn-primary':isRussian}" (click)="changeLang('ru')" class="btn btn-default">Ru</button>
-                    </div>
-                </li>
+                <!--<li>-->
+                    <!--<div class="btn-group">-->
+                        <!--<a class="submenu-trigger"-->
+                           <!--data-toggle="dropdown" href="#">-->
+                            <!--<span>-->
+                                <!--<span class="{{'flag flag-'+currentLang}}"></span>-->
+                                <!--<em>{{'languages.'+currentLang | translate}}</em></span>-->
+                            <!--<span class="caret"></span>-->
+                        <!--</a>-->
+                        <!--<ul class="dropdown-menu language-menu">-->
+                            <!--<li>-->
+                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('en')">-->
+                                    <!--<span class="flag flag-en"></span>-->
+                                    <!--{{'languages.en' | translate}}</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar">-->
+                                    <!--<span class="flag flag-ua"></span>-->
+                                    <!--{{'languages.ua' | translate}}</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('ru')">-->
+                                    <!--<span class="flag flag-ru"></span>-->
+                                    <!--{{'languages.ru' | translate}}</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                <!--</li>-->
+
                 <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs' | translate}}</a></li>
             </ul>
         </div>

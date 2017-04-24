@@ -30,5 +30,10 @@
 
   "betaPanel":{
     "text": "This is beta version of the site"
+  },
+  "languages":{
+    "en":"English",
+    "ua": "Українська",
+    "ru": "Русский"
   }
 }

@@ -26,6 +26,10 @@ export class HeaderComponent {
         return this.currentLang === 'ru'
     }
 
+    get isUkrainian(){
+        return this.currentLang === 'ua'
+    }
+
     changeLang(lang: string) {
         this.mainService.currentChosenLanguage = lang;
         this.translate.use(lang);

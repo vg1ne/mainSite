@@ -14,7 +14,8 @@ import { OurServiceView_3} from "./../views/ourService/views/ourServiceView_3"
 import { OurServiceView_4} from "./../views/ourService/views/ourServiceView_4"
 import { OurServiceView_5} from "./../views/ourService/views/ourServiceView_5"
 import { OurServiceView_6} from "./../views/ourService/views/ourServiceView_6"
+import {PanelBetaComponent} from "../components/shared/panelBetaComponent/panelBetaComponent";
 
-export const components = [HeaderComponent, ServiceComponent, ProfitComponent, WorkComponent, ContactUsComponent,
+export const components = [HeaderComponent, PanelBetaComponent, ServiceComponent, ProfitComponent, WorkComponent, ContactUsComponent,
 FooterComponent, SubFooterComponent, MainSlideComponent, PreloaderComponent,
 OurServiceView_1, OurServiceView_2, OurServiceView_3, OurServiceView_4, OurServiceView_5, OurServiceView_6]

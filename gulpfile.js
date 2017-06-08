@@ -31,7 +31,9 @@ gulp.task("webpack", function (callback) {
 gulp.task("webpack:webpack-dev-server", function (callback) {
     const compiler = webpack(webpackConfig);
 
-    new WebpackDevServer(compiler, {}).listen(8080, "localhost", function (err) {
+    new WebpackDevServer(compiler, {
+        https: true
+    }).listen(8080, "localhost", function (err) {
         if (err) throw new gutil.PluginError("webpack-dev-server", err);
         gutil.log("[webpack-dev-server]", "http://localhost:8080");
 

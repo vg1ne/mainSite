@@ -1,28 +1,20 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/',
-    '/prod/',
     '/prod/vendor.bundle.js',
-    '/prod/style.css',
-    '/script/',
-    '/script/main.js',
-
-    '/styles/',
-    '/styles/images/'
+    '/prod/style.css'
 ];
 
 this.addEventListener('install', function(event) {
+    console.log("Installing…");
     event.waitUntil(
         caches.open(CACHE_NAME).then(function(cache) {
-            return cache.addAll([
-                '/',
-                '/index.html'
-            ]);
-        })
+            return cache.addAll(urlsToCache);
+        }).catch(error => console.error(`Oops! ${error}`))
     );
 });
 
-self.addEventListener('fetch', function(event) {
+this.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request)
             .then(function(response) {

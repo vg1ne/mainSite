@@ -3,8 +3,8 @@
     <title>Trident</title>
     <meta name="viewport" content="width=device-width">
     <script src="./prod/vendor.bundle.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./prod/style.css">
+
 </head>
 
 <body>
@@ -16,17 +16,6 @@
         <router-outlet></router-outlet>
     </my-app>
     <script src="./prod/app.bundle.js"></script>
-    <script type="application/javascript">
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/sw.js').then(function(reg) {
-                    console.log('Registration succeeded. Scope is ' + reg.scope);
-                }).catch(function(error) {
-                    console.log('Registration failed with ' + error);
-                });
-            });
-
-        };
-    </script>
+    <script src="sw-starter.js"></script>
 </body>
 </html>

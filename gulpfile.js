@@ -42,6 +42,28 @@ gulp.task("webpack:webpack-dev-server", function (callback) {
     });
 });
 
-gulp.task('default', ["cleanCompiling"], function () {
+gulp.task('default', ["cleanCompiling", "generate-sw"], function () {
     gulp.start('webpack:webpack-dev-server');
+});
+
+gulp.task('generate-sw', function(callback) {
+    var swPrecache = require('sw-precache');
+    var rootDir = './';
+
+    swPrecache.write(`${rootDir}/service-worker.js`, {
+        staticFileGlobs: [rootDir + 'prod/**/*.{js,html,css}',
+            rootDir + 'fonts/**/*.{eot,ttf,woff}',
+            rootDir + 'i18n/*.json',
+            rootDir + 'styles/images/**/*.{png,jpg,gif,svg}',
+            rootDir + 'sw-starter.js',
+            rootDir + 'index.html'],
+        stripPrefix: rootDir,
+        clientsClaim: true,
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024, // 2MB
+        navigateFallback: 'index.html',
+        runtimeCaching: [{
+            urlPattern: /^https:\/\/example/,
+            handler: 'cacheFirst'
+        }],
+    }, callback);
 });

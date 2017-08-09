@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e95c6ab9-0a55-48ee-a99a-aa77f7cdb893" name="Default" comment="base changes for use angular/cli" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mainSite" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trident/src/assets/styles/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trident/.angular-cli.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainSlideComponent.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trident/src/app/components/mainSlideComponent/mainSlideComponent.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i1</find>
+      <find>i18n</find>
+      <find>lo</find>
+      <find>.</find>
+      <find>.logo</find>
+      <find>variables.less</find>
+      <find>styles/variables</find>
+      <find>../styles/variables</find>
+      <find>../styles/mediaQueries</find>
+      <find>ourServ</find>
+      <find>require(&quot;</find>
+      <find>template: require(</find>
+      <find>.html&quot;)</find>
+      <find>templateUrl&quot;</find>
+      <find>templateUrl'</find>
+      <find>workCom</find>
+      <find>ourServicesVie</find>
+      <find>require</find>
+      <find>slide-3</find>
+      <find>../styles/images/</find>
+      <find>en.json</find>
+      <find>i18</find>
+      <find>transl</find>
+      <find>service1_</find>
+      <find>service1_b</find>
+      <find>../styles/</find>
+      <find>../a</find>
+      <find>blog_cat</find>
+      <find>mainSlide</find>
+      <find>template:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../assets/styles/variables</replace>
+      <replace>templateUrl</replace>
+      <replace>.html&quot;</replace>
+      <replace>templateUrl:&quot;</replace>
+      <replace>templateUrl:'</replace>
+      <replace>../assets/styles/images/</replace>
+      <replace>../assets/styles/</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/views/contactUs2/contactUsView.html" />
+        <option value="$PROJECT_DIR$/app/views/portfolioItem/portfolioItemView.html" />
+        <option value="$PROJECT_DIR$/styles/variables.less" />
+        <option value="$PROJECT_DIR$/app/mocks/ourRecentWorksMock.ts" />
+        <option value="$PROJECT_DIR$/app/views/home/homeView.ts" />
+        <option value="$PROJECT_DIR$/app/views/ourServices/ourServicesView.ts" />
+        <option value="$PROJECT_DIR$/app/components/contactUs/contactUs.html" />
+        <option value="$PROJECT_DIR$/styles/mediaQueries.less" />
+        <option value="$PROJECT_DIR$/app/views/aboutUs/workflow/workflowView.html" />
+        <option value="$PROJECT_DIR$/app/components/app.component.ts" />
+        <option value="$PROJECT_DIR$/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/app/helpers/components.helper.ts" />
+        <option value="$PROJECT_DIR$/app/components/shared/panelBetaComponent/panelBetaComponent.less" />
+        <option value="$PROJECT_DIR$/app/components/shared/panelBetaComponent/panelBetaComponent.ts" />
+        <option value="$PROJECT_DIR$/app/components/shared/panelBetaComponent/panelBetaComponent.html" />
+        <option value="$PROJECT_DIR$/i18n/ru.json" />
+        <option value="$PROJECT_DIR$/i18n/en.json" />
+        <option value="$PROJECT_DIR$/app/components/shared/headerComponent/headerComponent.ts" />
+        <option value="$PROJECT_DIR$/app/components/shared/headerComponent/headerComponent.less" />
+        <option value="$PROJECT_DIR$/styles/style.less" />
+        <option value="$PROJECT_DIR$/app/components/shared/headerComponent/headerComponent.html" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/app/swInstaller.js" />
+        <option value="$PROJECT_DIR$/sw.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/sw-starter.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/contactUs/contactUs.less" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/mainSlideComponent/mainSlideComponent.less" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/preloaderComponent/preloaderComponent.less" />
+        <option value="$PROJECT_DIR$/trident/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/views/contactUs2/contactUsView.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_3.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/views/ourService/ourServiceView.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/panelBetaComponent/panelBetaComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/workComponent/workComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/preloaderComponent/preloaderComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/subFooterComponent/subFooterComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/footerComponent/footerComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/contactUs/contactUs.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/profitComponent/profitComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/shared/headerComponent/headerComponent.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/app.component.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/mocks/ourRecentWorksMock.ts" />
+        <option value="$PROJECT_DIR$/trident/src/index.html" />
+        <option value="$PROJECT_DIR$/trident/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/trident/src/app/views/aboutUs/workflow/workflowView.html" />
+        <option value="$PROJECT_DIR$/trident/src/assets/styles/style.less" />
+        <option value="$PROJECT_DIR$/trident/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/trident/src/app/components/mainSlideComponent/mainSlideComponent.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="F:\mainSite\node_modules\gulp" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="javascript.nodejs.core.library.configured.version" value="7.0.0" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="ToolWindowFind.ShowToolbar" value="false" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mainSite\trident" />
+      <recent name="F:\mainSite\trident\src\app" />
+      <recent name="F:\mainSite\prod" />
+      <recent name="F:\mainSite\app\views\contactUs2" />
+      <recent name="F:\mainSite\app\views\aboutUs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mainSite\trident\src\app" />
+      <recent name="F:\mainSite\trident\src" />
+      <recent name="F:\mainSite\trident\src\assets" />
+      <recent name="F:\mainSite\favs" />
+      <recent name="F:\mainSite\styles\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gulp.js.mainSite">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration name="mainSite" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e95c6ab9-0a55-48ee-a99a-aa77f7cdb893" name="Default" comment="" />
+      <created>1479753586105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479753586105</updated>
+      <workItem from="1479753588788" duration="117000" />
+      <workItem from="1479754834698" duration="3221000" />
+      <workItem from="1479801565077" duration="2073000" />
+      <workItem from="1479920915286" duration="29506000" />
+      <workItem from="1480155718605" duration="1568000" />
+      <workItem from="1480157368761" duration="16000" />
+      <workItem from="1480157669770" duration="3336000" />
+      <workItem from="1480161653595" duration="543000" />
+      <workItem from="1480163209257" duration="34578000" />
+      <workItem from="1480520963536" duration="14124000" />
+      <workItem from="1480786259722" duration="35636000" />
+      <workItem from="1481366656332" duration="12645000" />
+      <workItem from="1481455689985" duration="5666000" />
+      <workItem from="1484386942086" duration="6618000" />
+      <workItem from="1486315968488" duration="15000" />
+      <workItem from="1486748046802" duration="22973000" />
+      <workItem from="1487622760765" duration="785000" />
+      <workItem from="1487792918077" duration="2014000" />
+      <workItem from="1490435156729" duration="19000" />
+      <workItem from="1490435233533" duration="38000" />
+      <workItem from="1490435329794" duration="100000" />
+      <workItem from="1490435566239" duration="14719000" />
+      <workItem from="1490536924478" duration="446000" />
+      <workItem from="1491130553002" duration="433000" />
+      <workItem from="1492363009391" duration="73000" />
+      <workItem from="1492363194565" duration="58000" />
+      <workItem from="1492797494510" duration="418000" />
+      <workItem from="1492797944714" duration="4953000" />
+      <workItem from="1492940473049" duration="14937000" />
+      <workItem from="1493923433736" duration="801000" />
+      <workItem from="1496864831153" duration="933000" />
+      <workItem from="1496941437797" duration="249000" />
+      <workItem from="1496947044852" duration="8469000" />
+      <workItem from="1497285111748" duration="5331000" />
+      <workItem from="1499711193492" duration="31000" />
+      <workItem from="1502299348644" duration="1535000" />
+      <workItem from="1502301009559" duration="6046000" />
+    </task>
+    <task id="LOCAL-00001" summary="added service images and our work images">
+      <created>1479921937431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479921937431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added imports of variables.less. Added some documentation changes">
+      <created>1480276133030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480276133030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed whoWeAre and the same components">
+      <created>1480527254716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1480527254716</updated>
+    </task>
+    <task id="LOCAL-00004" summary="home page media query fixes">
+      <created>1480527834378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1480527834378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="main menu fixed for small devices">
+      <created>1480528314267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480528314267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="small devices fixes">
+      <created>1480535049042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480535049042</updated>
+    </task>
+    <task id="LOCAL-00007" summary="small devices fixes">
+      <created>1480535428828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1480535428828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed shadow in slider on home page">
+      <created>1490439264561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490439264561</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added portfolio page">
+      <created>1490448738163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490448738163</updated>
+    </task>
+    <task id="LOCAL-00010" summary="portfolio item page">
+      <created>1490451161995</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490451161995</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed portfolio item on main page">
+      <created>1490451459893</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1490451459893</updated>
+    </task>
+    <task id="LOCAL-00012" summary="portfolio for devices fixes">
+      <created>1490453175284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490453175284</updated>
+    </task>
+    <task id="LOCAL-00013" summary="portfolio for devices fixes">
+      <created>1490536974591</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1490536974591</updated>
+    </task>
+    <task id="LOCAL-00014" summary="portfolio for devices fixes">
+      <created>1490537039446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1490537039446</updated>
+    </task>
+    <task id="LOCAL-00015" summary="removed border-radius from portfolio items">
+      <created>1492798193019</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1492798193019</updated>
+    </task>
+    <task id="LOCAL-00016" summary="main page margins">
+      <created>1492798787280</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1492798787280</updated>
+    </task>
+    <task id="LOCAL-00017" summary="services button margin">
+      <created>1492798991159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1492798991159</updated>
+    </task>
+    <task id="LOCAL-00018" summary="services button margin">
+      <created>1492799003271</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1492799003271</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added fill for portfolio item">
+      <created>1492799277507</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1492799277507</updated>
+    </task>
+    <task id="LOCAL-00020" summary="contact us button change">
+      <created>1492799634537</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1492799634537</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixed portfolio title z-index">
+      <created>1492799786502</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1492799786502</updated>
+    </task>
+    <task id="LOCAL-00022" summary="subheader padded bottom">
+      <created>1492799937328</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1492799937328</updated>
+    </task>
+    <task id="LOCAL-00023" summary="services padding">
+      <created>1492800353948</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1492800353948</updated>
+    </task>
+    <task id="LOCAL-00024" summary="services padding">
+      <created>1492800471887</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1492800471887</updated>
+    </task>
+    <task id="LOCAL-00025" summary="services padding">
+      <created>1492800587504</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1492800587504</updated>
+    </task>
+    <task id="LOCAL-00026" summary="service 3 fix">
+      <created>1492800653202</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1492800653202</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fixed bottom margin of workflow-list li">
+      <created>1492800860030</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1492800860030</updated>
+    </task>
+    <task id="LOCAL-00028" summary="removed repeating of the icon">
+      <created>1492801082834</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1492801082834</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added subheader to faq and contact us views">
+      <created>1492801455248</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1492801455248</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed contact us font-sizes">
+      <created>1492801716532</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1492801716532</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added new buttons for portfolio item">
+      <created>1492802296131</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1492802296131</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed focus of new buttons">
+      <created>1492802359224</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492802359224</updated>
+    </task>
+    <task id="LOCAL-00033" summary="changes for prod build">
+      <created>1492942105380</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1492942105380</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fixed some styles for mob">
+      <created>1492944127933</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1492944127933</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixed workflow for mobile devices">
+      <created>1492945419171</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1492945419171</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added home page slides preload">
+      <created>1492951454353</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1492951454353</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added panel of beta version">
+      <created>1493058205869</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1493058205869</updated>
+    </task>
+    <task id="LOCAL-00038" summary="edited i18n for testing panel">
+      <created>1493059642749</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1493059642749</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added flags of languages, added some styling of language change dropdown">
+      <created>1493062402363</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1493062402363</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added https for server running">
+      <created>1496948187238</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1496948187238</updated>
+    </task>
+    <task id="LOCAL-00041" summary="service workers not fetching">
+      <created>1496952554763</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1496952554763</updated>
+    </task>
+    <task id="LOCAL-00042" summary="sw.ja">
+      <created>1496952887184</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1496952887184</updated>
+    </task>
+    <task id="LOCAL-00043" summary="service worker changes, still not working">
+      <created>1496953204596</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1496953204596</updated>
+    </task>
+    <task id="LOCAL-00044" summary="seems like working service worker">
+      <created>1496955289490</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1496955289490</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added offline support for site using sw-cache">
+      <created>1497288823346</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1497288823346</updated>
+    </task>
+    <task id="LOCAL-00046" summary="remove sw book">
+      <created>1497291673904</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1497291673904</updated>
+    </task>
+    <task id="LOCAL-00047" summary="cli start">
+      <created>1502301629621</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1502301629622</updated>
+    </task>
+    <task id="LOCAL-00048" summary="base changes for use angular/cli">
+      <created>1502307012939</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1502307012939</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="235023000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386618" sideWeight="0.63661975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="174" y="208" width="976" height="209" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344209" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43278688" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2007435" sideWeight="0.36338028" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/mainSite" />
+    </ignored-roots>
+    <MESSAGE value="subheader padded bottom" />
+    <MESSAGE value="services padding" />
+    <MESSAGE value="service 3 fix" />
+    <MESSAGE value="fixed bottom margin of workflow-list li" />
+    <MESSAGE value="removed repeating of the icon" />
+    <MESSAGE value="added subheader to faq and contact us views" />
+    <MESSAGE value="fixed contact us font-sizes" />
+    <MESSAGE value="added new buttons for portfolio item" />
+    <MESSAGE value="fixed focus of new buttons" />
+    <MESSAGE value="changes for prod build" />
+    <MESSAGE value="fixed some styles for mob" />
+    <MESSAGE value="fixed workflow for mobile devices" />
+    <MESSAGE value="added home page slides preload" />
+    <MESSAGE value="added panel of beta version" />
+    <MESSAGE value="edited i18n for testing panel" />
+    <MESSAGE value="added flags of languages, added some styling of language change dropdown" />
+    <MESSAGE value="added https for server running" />
+    <MESSAGE value="service workers not fetching" />
+    <MESSAGE value="sw.ja" />
+    <MESSAGE value="service worker changes, still not working" />
+    <MESSAGE value="seems like working service worker" />
+    <MESSAGE value="added offline support for site using sw-cache" />
+    <MESSAGE value="remove sw book" />
+    <MESSAGE value="cli start" />
+    <MESSAGE value="base changes for use angular/cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="base changes for use angular/cli" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/swInstaller.js" />
+    <entry file="file://$PROJECT_DIR$/typings.json" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/sw.js" />
+    <entry file="file://$PROJECT_DIR$/d62df5e71ceaaf0d12c767ab768b0541.png" />
+    <entry file="file://$PROJECT_DIR$/styles/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/service-worker.js" />
+    <entry file="file://$PROJECT_DIR$/sw-starter.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/trident/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/mocks/appMock.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/assets/styles/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/mainSlideComponent/mainSlideComponent.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/contactUs/contactUs.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/preloaderComponent/preloaderComponent.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/node_modules/angular2-recaptcha/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="190">
+            <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="24" />
+            <folding>
+              <marker date="1502302248582" expanded="true" signature="480:749" ph="{...}" />
+              <marker date="1502302248582" expanded="true" signature="491:562" ph="{&quot;angular2-recaptcha&quot;: 'node_modules/angular2-recaptcha'...}" />
+              <marker date="1502302248582" expanded="true" signature="578:747" ph="{...}" />
+              <marker date="1502302248582" expanded="true" signature="593:671" ph="{&quot;format&quot;: 'register'...}" />
+              <marker date="1502302248582" expanded="true" signature="879:912" ph="{...}" />
+              <marker date="1502302248582" expanded="true" signature="2165:2257" ph="..." />
+              <marker date="1502302248582" expanded="true" signature="2290:2355" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/contactUs2/contactUsView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_3.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/home/homeView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/ourService/ourServiceView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/contactUs/contactUsView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/panelBetaComponent/panelBetaComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/workComponent/workComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/ourServices/ourServicesView.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/preloaderComponent/preloaderComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/subFooterComponent/subFooterComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/footerComponent/footerComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/contactUs/contactUs.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/profitComponent/profitComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/headerComponent/headerComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/mocks/ourRecentWorksMock.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="81" lean-forward="true" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/aCli/cliHome/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/node_modules/@angular/compiler/src/template_parser/template_parser.metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2070" lean-forward="false" selection-start-line="0" selection-start-column="2070" selection-end-line="0" selection-end-column="2070" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/services/main.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/mocks/servicesMock.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="14" column="96" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/views/aboutUs/workflow/workflowView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/assets/styles/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/i18n/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/mainSlideComponent/mainSlideComponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

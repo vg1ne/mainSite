@@ -1,0 +1,75 @@
+@import "../../../assets/styles/variables";
+.work-item-wrapper {
+    margin-bottom: 1em;
+    cursor: hand;
+}
+.btn.btn-success:hover{
+    color: @text-color-3;
+}
+work{
+    display :block;
+}
+.vertical-centered {
+    height: @card-font-size;
+    overflow: hidden;
+    line-height: @card-font-size;
+}
+.portfolio-title-text{
+  display: none;
+}
+.work-container {
+    background: @gray2;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    .portfolio-title{
+        display: none;
+    }
+    .vertical-centered {
+        position: relative;
+        z-index: 2;
+        color: @white;
+        text-align: center;
+    }
+}
+
+.portfolio-item{
+    .portfolio-title-text{
+      display: block;
+    }
+    .work-item-wrapper{
+        margin: 15px 0;
+        .vertical-centered.text-center{
+            font-size: 0;
+        }
+        .portfolio-title{
+            display: block;
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            right: 15px;
+            z-index: 2;
+
+            .shadower{
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                background: black;
+                opacity: 0.5;
+            }
+            .portfolio-title-text{
+                padding: 1em;
+                color: @white;
+                position: relative;
+            }
+        }
+    }
+}
+.portfolio-item-content{
+    margin-top: 5em;
+    .work-container{
+        height: 20em;
+    }
+}

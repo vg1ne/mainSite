@@ -1,0 +1,12 @@
+<div *ngIf="isVisible" class="panel panel-danger panel-beta-version" id="beta-version-panel">
+    <div class="panel-heading text-center">{{'betaPanel.text' | translate}}
+        <button type="button"
+                class="close"
+                (click)="hidePanel()"
+                data-target="#beta-version-panel"
+                data-dismiss="alert">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+    </div>
+</div>

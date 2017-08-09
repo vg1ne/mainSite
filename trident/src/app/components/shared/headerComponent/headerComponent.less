@@ -1,0 +1,76 @@
+@import "../../../../assets/styles/variables";
+
+main-header{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background: none;
+}
+
+.navbar.navbar-default{
+    background: @black;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{
+    color: @white;
+    font-size: @nav-font-size;
+    cursor: pointer;
+}
+
+.nav.navbar-nav{
+    li{
+        a{
+            text-transform: capitalize;
+            color: @white;
+            font-size: @nav-font-size;
+            border-bottom: 3px solid transparent;
+
+            &:hover{
+                text-decoration: none;
+                border-color: @green;
+            }
+
+            &.active{
+                border-color: @green;
+            }
+            &.btn-wider.btn.btn-success{
+                border-color: @green;
+                text-transform:uppercase;
+                font-size:1.4rem;
+                margin-top: 7px;
+                margin-left:1em;
+            &:hover{
+                background-color: @btn-success-background;
+                }
+            }
+            &.submenu-trigger{
+                padding: 15px;
+                margin-left: 1em;
+                display: inline-block;
+                background-color: transparent;
+            }
+        }
+        .btn-group{
+            .dropdown-menu{
+                background: @black;
+                li a:hover{
+                    background: @gray;
+                }
+            }
+        }
+        .active-link-wr{
+            &>a.submenu-trigger{
+                border-color: @nav-decorations-color;
+            }
+        }
+    }
+    .nav-item-lined{
+        line-height: 1.47;
+    }
+}

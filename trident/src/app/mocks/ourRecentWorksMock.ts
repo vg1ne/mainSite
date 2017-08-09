@@ -1,0 +1,72 @@
+﻿export const ourRecentWorks = [{
+        id: 1,
+        title: 'Radio Alarm iOS App',
+        imgUrl: '../../../../assets/styles/images/work1.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work1.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'http://publicliterature.org/pdf/21279.pdf',
+        websiteUrl: 'https:/vk.com'
+    },
+    {
+        id: 2,
+        title: 'Portland UI Kit Free Sample',
+        imgUrl: '../../../../assets/styles/images/work2.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work2.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'http://publicliterature.org/pdf/21279.pdf',
+        websiteUrl: 'https:/vk.com'
+    },
+    {
+        id: 3,
+        title: 'Carwash iOS App',
+        imgUrl: '../../../../assets/styles/images/work3.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work3.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'https://www.google.com.ua',
+        websiteUrl: 'https:/vk.com'
+    },
+    {
+        id: 4,
+        title: 'Nexus 5 Mockups',
+        imgUrl: '../../../../assets/styles/images/work4.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work4.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'https://www.google.com.ua',
+        websiteUrl: 'https:/vk.com'
+    },
+    {
+        id: 5,
+        title: 'The Rapture Startup',
+        imgUrl: '../../../../assets/styles/images/work5.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work5.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'https://www.google.com.ua',
+        websiteUrl: 'https:/vk.com'
+    },
+    {
+        id: 6,
+        title: 'Portland UI Kit',
+        imgUrl: '../../../../assets/styles/images/work6.jpg',
+        imgPortfolioUrl: '../../../../assets/styles/images/work6.jpg',
+        year: 2015,
+        client: 'LLC "Innovation Business"',
+        task: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+        solution: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+        presentationUrl: 'https://www.google.com.ua',
+        websiteUrl: 'https:/vk.com'
+    }]

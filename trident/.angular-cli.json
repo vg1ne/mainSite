@@ -20,8 +20,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
         "../src/assets/styles/variables.less",
+        "../src/assets/styles/mediaQueries.less",
+        "../src/assets/styles/style.less",
         "../node_modules/bootstrap3/dist/css/bootstrap.min.css"
       ],
       "scripts": [],

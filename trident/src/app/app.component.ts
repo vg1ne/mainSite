@@ -12,8 +12,6 @@ slides.home.forEach((item)=>{
 
 @Component({
     selector: 'my-app',
-  styleUrls: ["../assets/styles/style.less",
-    "../assets/styles/mediaQueries.less"],
     template:`<main-header></main-header><section class="top-header"><router-outlet></router-outlet></section><sub-footer></sub-footer><main-footer></main-footer>`
 })
 

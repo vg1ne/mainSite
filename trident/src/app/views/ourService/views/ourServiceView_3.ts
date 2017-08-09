@@ -3,7 +3,7 @@ import {MainService} from "../../../services/main.service"
 
 @Component({
     selector: 'service-3',
-    template: "./ourServiceView_3.html"
+    templateUrl: "./ourServiceView_3.html"
 })
 
 export class OurServiceView_3 {

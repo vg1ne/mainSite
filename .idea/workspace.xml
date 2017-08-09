@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95c6ab9-0a55-48ee-a99a-aa77f7cdb893" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/.angular-cli.json" afterPath="$PROJECT_DIR$/trident/.angular-cli.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/package.json" afterPath="$PROJECT_DIR$/trident/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/src/app/app.module.ts" afterPath="$PROJECT_DIR$/trident/src/app/app.module.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trident/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="197">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -47,7 +48,17 @@
         <entry file="file://$PROJECT_DIR$/trident/.angular-cli.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headerComponent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/headerComponent/headerComponent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -65,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lo</find>
       <find>.</find>
       <find>.logo</find>
       <find>variables.less</find>
@@ -95,6 +105,7 @@
       <find>template:</find>
       <find>TranslateLoader</find>
       <find>TranslateModule</find>
+      <find>ourServices</find>
     </findStrings>
     <replaceStrings>
       <replace>../assets/styles/variables</replace>
@@ -189,7 +200,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -253,6 +264,21 @@
               <item name="bootstrap3" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ng2-bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
+              <item name="trident" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ng2-bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dropdown" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,14 +456,7 @@
       <workItem from="1499711193492" duration="31000" />
       <workItem from="1502299348644" duration="1535000" />
       <workItem from="1502301009559" duration="6100000" />
-      <workItem from="1502307160144" duration="1240000" />
-    </task>
-    <task id="LOCAL-00002" summary="added imports of variables.less. Added some documentation changes">
-      <created>1480276133030</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1480276133030</updated>
+      <workItem from="1502307160144" duration="2632000" />
     </task>
     <task id="LOCAL-00003" summary="removed whoWeAre and the same components">
       <created>1480527254716</created>
@@ -775,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502308045997</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added dropdown functionality (not checked)">
+      <created>1502308421384</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1502308421384</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236317000" />
+    <option name="totallyTimeSpent" value="237709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,11 +817,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386618" sideWeight="0.63661975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24459359" sideWeight="0.63661975" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="174" y="208" width="976" height="209" />
@@ -827,7 +853,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mainSite" />
     </ignored-roots>
-    <MESSAGE value="service 3 fix" />
     <MESSAGE value="fixed bottom margin of workflow-list li" />
     <MESSAGE value="removed repeating of the icon" />
     <MESSAGE value="added subheader to faq and contact us views" />
@@ -852,7 +877,8 @@
     <MESSAGE value="base changes for use angular/cli" />
     <MESSAGE value="fixed translation" />
     <MESSAGE value="fixed some styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some styles" />
+    <MESSAGE value="added dropdown functionality (not checked)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dropdown functionality (not checked)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,7 +890,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/sw.js" />
     <entry file="file://$PROJECT_DIR$/d62df5e71ceaaf0d12c767ab768b0541.png" />
     <entry file="file://$PROJECT_DIR$/styles/bootstrap.css" />
@@ -879,6 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +912,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -973,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,6 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,6 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="81" lean-forward="true" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,6 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,10 +1195,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trident/src/app/components/shared/headerComponent/headerComponent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trident/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="197">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1177,7 +1216,7 @@
     <entry file="file://$PROJECT_DIR$/trident/.angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>

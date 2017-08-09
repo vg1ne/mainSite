@@ -19,12 +19,14 @@ import {MainService} from "./services/main.service"
 
 import {TranslateModule} from 'ng2-translate';
 import {CarouselModule} from 'ng2-bootstrap/ng2-bootstrap';
+import {DropdownModule} from "ng2-dropdown";
 
 @NgModule({
     imports: [BrowserModule,
       CarouselModule,
       routing,
       TranslateModule.forRoot(),
+      DropdownModule,
       ReactiveFormsModule,
       ReCaptchaModule,
       OrderModule],

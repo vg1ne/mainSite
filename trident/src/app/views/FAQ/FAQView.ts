@@ -11,5 +11,5 @@ export class FAQView {
         this.faq = this.mainService.faq
     }
 
-    private faq: any[]
+    faq: any[]
 }

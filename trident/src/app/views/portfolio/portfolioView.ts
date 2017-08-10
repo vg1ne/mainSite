@@ -11,7 +11,6 @@ export class PortfolioView implements OnInit{
     }
     ngOnInit(){
         this.works = this.ourWorksService.get()
-        let a = 1;
     }
-    private works: Work[]
+    works: Work[]
 }

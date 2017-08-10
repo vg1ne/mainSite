@@ -672,3 +672,64 @@
   .flag.flag-ru {
     background-position: 0 0;
   }
+
+main-slide {
+  position: relative;
+  display: block;
+  margin-top: -10%;
+}
+
+.carousel .slider-img {
+  position: absolute;
+}
+
+.carousel .slide {
+  display: table;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: @gray2;
+  padding: 0 10%;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.carousel .item {
+  color: @white;
+  margin-top: 50px;
+}
+
+.slide-info {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.slide-info {
+  h2 {margin-top:20px;
+    margin-bottom:10px;
+  }
+  .show-more-section {
+    margin-top:35px;
+  }
+  .btn {
+    padding: 1em 4.5em;
+    font-size:1.3rem;
+  }
+}
+
+
+.slide-mark {
+  font-size: @tag-font-size;
+  display: inline-block;
+  background: @blue;
+  padding: 0.5em 3em;
+  border-radius:0.3em;
+  text-transform:uppercase;
+}
+
+.carousel-control{
+  cursor: pointer;
+}

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e95c6ab9-0a55-48ee-a99a-aa77f7cdb893" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_3.ts" afterPath="$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_3.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_6.ts" afterPath="$PROJECT_DIR$/trident/src/app/views/ourService/views/ourServiceView_6.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trident/src/assets/styles/style.less" afterPath="$PROJECT_DIR$/trident/src/assets/styles/style.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,10 +195,9 @@
     <handled-path value="$PROJECT_DIR$/trident/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -235,51 +231,6 @@
               <item name="mainSite" type="462c0819:PsiDirectoryNode" />
               <item name="trident" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap3" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap3" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ng2-bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mainSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainSite" type="462c0819:PsiDirectoryNode" />
-              <item name="trident" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ng2-bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dropdown" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -288,7 +239,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/ngrx" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -456,14 +407,7 @@
       <workItem from="1499711193492" duration="31000" />
       <workItem from="1502299348644" duration="1535000" />
       <workItem from="1502301009559" duration="6100000" />
-      <workItem from="1502307160144" duration="2913000" />
-    </task>
-    <task id="LOCAL-00004" summary="home page media query fixes">
-      <created>1480527834378</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1480527834378</updated>
+      <workItem from="1502307160144" duration="3544000" />
     </task>
     <task id="LOCAL-00005" summary="main menu fixed for small devices">
       <created>1480528314267</created>
@@ -801,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502310818471</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="top header remove margin">
+      <created>1502311098738</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1502311098738</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237990000" />
+    <option name="totallyTimeSpent" value="238621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,7 +768,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -828,7 +779,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3344209" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43278688" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43926787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -853,7 +804,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mainSite" />
     </ignored-roots>
-    <MESSAGE value="removed repeating of the icon" />
     <MESSAGE value="added subheader to faq and contact us views" />
     <MESSAGE value="fixed contact us font-sizes" />
     <MESSAGE value="added new buttons for portfolio item" />
@@ -878,7 +828,8 @@
     <MESSAGE value="fixed some styles" />
     <MESSAGE value="added dropdown functionality (not checked)" />
     <MESSAGE value="fixed dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed dropdown" />
+    <MESSAGE value="top header remove margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="top header remove margin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
     styleUrls: ["./panelBetaComponent.less"]
 })
 export class PanelBetaComponent{
-    private hidePanel(){
+    hidePanel(){
         sessionStorage.setItem('panelWasShown', 'true');
     }
 
-    private get isVisible(){
+    get isVisible(){
         return sessionStorage.getItem('panelWasShown') !== 'true'
     }
 }

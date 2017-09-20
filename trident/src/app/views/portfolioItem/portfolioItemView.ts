@@ -19,5 +19,5 @@ export class PortfolioItemView implements OnInit{
         });
         this.work = this.ourWorksService.getById(this.id)
     }
-    private work: Work
+    work: Work
 }

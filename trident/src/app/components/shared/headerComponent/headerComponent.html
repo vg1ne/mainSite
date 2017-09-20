@@ -1,85 +1,118 @@
 <panel-beta></panel-beta>
 <nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand logo" routerLinkActive="active" routerLink="" data-toggle="collapse" data-target="#bs-navbar"></a>
-        </div>
-
-        <div class="collapse navbar-collapse pull-right" id="bs-navbar">
-            <ul class="nav navbar-nav">
-                <li><a class="nav-item-lined" data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" routerLink="/portfolio"><em>{{'portfolio' | translate}}</em></a></li>
-                <li>
-                    <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
-                        <a class="submenu-trigger" data-toggle="dropdown" href="#">
-                            <span><em>{{'ourServices' | translate}}</em></span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li *ngFor="let item of services">
-                                <a routerLinkActive="active"
-                                   data-toggle="collapse"
-                                   data-target="#bs-navbar"
-                                   [routerLink]="['/ourService', item.id]"
-                                   *ngIf="item.providing && item.id!==6 ">
-                                    {{item.title}}
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
-                        <a class="submenu-trigger"
-                            data-toggle="dropdown" href="#">
-                            <span><em>{{'About us' | translate}}</em></span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active"[routerLink]="['/workflow']">{{'workflow' | translate}}</a>
-                            </li>
-                            <li><a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" routerLink="/privacyPolicy">Privacy police</a></li>
-                            <li><a data-toggle="collapse" data-target="#bs-navbar" routerLinkActive="active" routerLink="/termsAndConditions">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <!--<li>-->
-                    <!--<div class="btn-group">-->
-                        <!--<a class="submenu-trigger"-->
-                           <!--data-toggle="dropdown" href="#">-->
-                            <!--<span>-->
-                                <!--<span class="{{'flag flag-'+currentLang}}"></span>-->
-                                <!--<em>{{'languages.'+currentLang | translate}}</em></span>-->
-                            <!--<span class="caret"></span>-->
-                        <!--</a>-->
-                        <!--<ul class="dropdown-menu language-menu">-->
-                            <!--<li>-->
-                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('en')">-->
-                                    <!--<span class="flag flag-en"></span>-->
-                                    <!--{{'languages.en' | translate}}</a>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar">-->
-                                    <!--<span class="flag flag-ua"></span>-->
-                                    <!--{{'languages.ua' | translate}}</a>-->
-                            <!--</li>-->
-                            <!--<li>-->
-                                <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('ru')">-->
-                                    <!--<span class="flag flag-ru"></span>-->
-                                    <!--{{'languages.ru' | translate}}</a>-->
-                            <!--</li>-->
-                        <!--</ul>-->
-                    <!--</div>-->
-                <!--</li>-->
-
-                <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs' | translate}}</a></li>
-            </ul>
-        </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar"
+              aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" target="_self" routerLinkActive="active" routerLink="/" data-toggle="collapse"
+         data-target="#bs-navbar"></a>
     </div>
+
+    <div class="collapse navbar-collapse pull-right" id="bs-navbar">
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="nav-item-lined"
+             data-toggle="collapse"
+             data-target="#bs-navbar"
+             routerLinkActive="active"
+             target="_self"
+             routerLink="/portfolio">
+            <em>{{'portfolio' | translate}}</em>
+          </a>
+        </li>
+        <li>
+          <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
+            <a class="submenu-trigger" data-toggle="dropdown" href="#">
+              <span><em>{{'ourServices' | translate}}</em></span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li *ngFor="let item of services">
+                <a routerLinkActive="active"
+                   data-toggle="collapse"
+                   data-target="#bs-navbar"
+                   target="_self"
+                   [routerLink]="['/ourService', item.id]"
+                   *ngIf="item.providing && item.id!==6 ">
+                  {{item.title}}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="btn-group" routerLinkActive="active-link-wr" [routerLinkActiveOptions]="{exact: true}">
+            <a class="submenu-trigger"
+               data-toggle="dropdown" href="#">
+              <span><em>{{'About us' | translate}}</em></span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a data-toggle="collapse"
+                   data-target="#bs-navbar"
+                   routerLinkActive="active"
+                   target="_self"
+                   [routerLink]="['/workflow']">{{'workflow' | translate}}
+                </a>
+              </li>
+              <li>
+                <a data-toggle="collapse"
+                   data-target="#bs-navbar"
+                   routerLinkActive="active"
+                   target="_self"
+                   routerLink="/privacyPolicy">
+                  Privacy police
+                </a>
+              </li>
+              <li>
+                <a data-toggle="collapse"
+                   data-target="#bs-navbar"
+                   routerLinkActive="active"
+                   target="_self"
+                   routerLink="/termsAndConditions">
+                  Terms & Conditions
+                </a></li>
+            </ul>
+          </div>
+        </li>
+        <!--<li>-->
+        <!--<div class="btn-group">-->
+        <!--<a class="submenu-trigger"-->
+        <!--data-toggle="dropdown" href="#">-->
+        <!--<span>-->
+        <!--<span class="{{'flag flag-'+currentLang}}"></span>-->
+        <!--<em>{{'languages.'+currentLang | translate}}</em></span>-->
+        <!--<span class="caret"></span>-->
+        <!--</a>-->
+        <!--<ul class="dropdown-menu language-menu">-->
+        <!--<li>-->
+        <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('en')">-->
+        <!--<span class="flag flag-en"></span>-->
+        <!--{{'languages.en' | translate}}</a>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar">-->
+        <!--<span class="flag flag-ua"></span>-->
+        <!--{{'languages.ua' | translate}}</a>-->
+        <!--</li>-->
+        <!--<li>-->
+        <!--<a href="#" data-toggle="collapse" data-target="#bs-navbar" (click)="changeLang('ru')">-->
+        <!--<span class="flag flag-ru"></span>-->
+        <!--{{'languages.ru' | translate}}</a>-->
+        <!--</li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--</li>-->
+
+        <li><a routerLinkActive="active" routerLink="/contactUs" class="btn-wider btn btn-success border-radius">{{'contactUs'
+          | translate}}</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
